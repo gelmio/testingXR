@@ -1,0 +1,5375 @@
+{"type":"FeatureCollection","features": [
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Aachen",
+         "facebook":"[[https://www.facebook.com/groups/368514770618987/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.0838868,50.7753455]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Aberdeen",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Aberdeenshire-228304674735040/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.094278,57.149717]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Abergavenny",
+         "facebook":"[[https://www.facebook.com/AbergavennyExtinctionRebellion/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.019423,51.825366]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Aberystwyth",
+         "facebook":"[[https://www.facebook.com/groups/256267055070117/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.08292,52.415303]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Adelaide",
+         "facebook":"[[facebook.com/xradelaide|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[138.6007456,-34.9284989]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Alberta",
+         "facebook":"[[https://www.facebook.com/XRAlberta/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-116.5765035,53.9332706]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Alkmaar"
+     },
+     "geometry": {"type":"Point","coordinates":[4.7533754,52.6323813]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Almería",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.4637136,36.834047]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Amherst",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtRebMA|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrmass/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-72.6075699,42.4053614]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Amsterdam",
+         "facebook":"[[https://www.facebook.com/XRAmsterdam/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.8949784,52.3816081]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Anacortes",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.6126718,48.5126045]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ann Arbor",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRA2-358243861777843|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-83.7430378,42.2808256]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Annecy",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Annecy-374471706449949/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.1295411,45.8990887]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Antigonish",
+         "facebook":"[[https://www.facebook.com/groups/2416226228612172/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-61.9928026,45.6226605]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Antwerp",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.4024643,51.2194475]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Aotearoa",
+         "facebook":"[[https://www.facebook.com/groups/1719740674797399/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[174.7800379,-41.3144795]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Argentina",
+         "facebook":"[[https://www.facebook.com/XRargentina/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrargentina/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/xrargentina|Twitter]]"
+         ,
+         "website":"[[https://xrargentina.org|Website]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-59.0944495,-35.6043214]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Arnhem/Nijmegen",
+         "facebook":"[[https://www.facebook.com/XRArNi/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.8987296,51.9851034]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ashdown Forest",
+         "facebook":"[[https://www.facebook.com/Ashdown-Forest-Extinction-Rebellion-386146695477261/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.0793129,51.03108]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ashford",
+         "facebook":"[[https://m.facebook.com/groups/521192811621994/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.875019,51.1464659]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Asturias",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionasturias/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-5.8593267,43.3613953]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Atlanta",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://facebook.com/xratlanta|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-84.3879824,33.7489954]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Austin",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRAustin/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-97.7430608,30.267153]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Australia",
+         "website":"[[https://ausrebellion.earth|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebellionaus|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xraustralia|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[133.775136,-25.274398]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Australian Capital Territory",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://m.facebook.com/XRACT/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[149.124417,-35.3075]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Austria",
+         "website":"[[http://xrebellion.at|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebellionat|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionaustria|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionaustria|Instagram]]"
+         ,
+         "youtube":"[[https://www.youtube.com/channel/UC5nX3kxWHWyvtsC30MMvYfQ|Youtube]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[16.3738189,48.2081743]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Auvergne",
+         "facebook":"[[https://www.facebook.com/groups/498348540661260/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[3.3448536,45.7032695]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Aylesbury",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/656005614848883/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.8084,51.815606]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bacău",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrbacau|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[26.9145748,46.5670437]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Baltimore",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrbaltimore|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-76.6121893,39.2903848]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Banbury",
+         "facebook":"[[https://www.facebook.com/groups/1189597757865556/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.33977500000003,52.0629009]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Barcelona",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/XrBarcelona|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionBarcelona/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrbarcelona/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[2.1734035,41.3850639]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Barnet",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1949252,51.6569225]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Barrie",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/1045362002292049/?ref=share|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-79.6903316,44.3893556]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bastia",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Corsica-198665901035354/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.450881,42.697283]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bath",
+         "facebook":"[[https://m.facebook.com/extinctionrebellionbath/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.3590167,51.3810641]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bayreuth",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Bayreuth-511064399422284/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/XR_Bayreuth|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[11.5713346,49.9456399]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bedford",
+         "facebook":"[[https://www.facebook.com/groups/2185313145129799/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.4666546,52.1359729]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Belfast",
+         "facebook":"[[https://facebook.com/groups/2107160366043892|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-5.93012,54.597285]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Belgium",
+         "website":"[[https://www.extinctionrebellion.be|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/extinctionrebe6|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionbe|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.46993599999996,50.503887]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Belgrade",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[20.4489216,44.786568]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bellingham",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRBellingham/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.4786854,48.7519112]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Benin"
+     },
+     "geometry": {"type":"Point","coordinates":[2.315834,9.30769]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bergen",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRBERGEN/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrbergen/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.3220544,60.3912628]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Berkhamsted",
+         "facebook":"[[https://www.facebook.com/groups/ExtinctionRebellionDacorum/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.5678569,51.759766]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Berlin",
+         "facebook":"[[https://www.facebook.com/xrberlin/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[13.404954,52.5200066]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bern",
+         "facebook":"[[https://www.facebook.com/XRBern/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.4474468,46.9479739]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Besançon",
+         "email":"[[|Email]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrbesancon/|Instagram]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-XR-Besan%C3%A7on-857199947952722/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.0240539,47.237829]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bhopal",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionBhopal|Facebook]]"
+         ,
+         "instagram":"[[https://instagram.com/xrindia|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/indiarebellion|Twitter]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[77.4175087,23.2490532]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Biel / Bienne",
+         "facebook":"[[https://www.facebook.com/XRBielBienne/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.9571,46.9142]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Birmingham",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionbirmingham/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.890401,52.486243]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bologna",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionBologna/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[11.3047836,44.5005101]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bonn",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRBonn/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.0982068,50.73743]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bordeaux",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionbordeaux/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.57918,44.837789]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Borth",
+         "facebook":"[[https://www.facebook.com/groups/2254157301470894/?fref=nf|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.0496849,52.4910208]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Boston",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtRebMA/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-71.0588801,42.3600825]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bournemouth + Dorset",
+         "facebook":"[[https://www.facebook.com/groups/758791187810701/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.880769,50.719164]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bracknell",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.75398,51.41604]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bradford",
+         "facebook":"[[https://www.facebook.com/groups/267137994154663/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.759398,53.795984]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brazil",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/343188776499510/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-46.718707,-23.5753708]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brecon",
+         "facebook":"[[https://www.facebook.com/xrbrecon|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.391463,51.9489469]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bremen",
+         "facebook":"[[https://www.facebook.com/xrbremen/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/@BremenRebellion|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.8016936,53.0792962]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brest",
+         "facebook":"[[https://www.facebook.com/groups/560489884415861/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.3828063,53.4509688]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bridgewater, NS",
+         "facebook":"[[https://www.facebook.com/groups/1910409705748030/?ref=pages_profile_groups_tab&source_id=663791624017529|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-64.5208798,44.3721167]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bridport",
+         "facebook":"[[https://www.facebook.com/Bridport-Extinction-Rebellion-267720547423891/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.758301,50.7335769]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brighouse & Rastrick",
+         "facebook":"[[https://www.facebook.com/groups/259407028074069/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.782501,53.699729]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brighton",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Brighton-active-page-207750146812696/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1426562,50.82253]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brisbane",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionseq/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[153.0251235,-27.4697707]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bristol",
+         "facebook":"[[https://www.facebook.com/XRBristol|Facebook]]"
+         ,
+         "twitter":"[[https://www.twitter.com/XRBristol|Twitter]]"
+         ,
+         "instagram":"[[https://www.instagram.com/XRBristol|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.58791,51.454513]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"British Columbia",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionBC/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-127.6476205,53.7266683]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brittany",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Bretagne-575985089516171/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.9326435,48.2020471]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Brno",
+         "facebook":"[[https://www.facebook.com/XRBrno|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[16.6068371,49.1950602]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bromley Borough",
+         "facebook":"[[https://www.facebook.com/groups/548189159001306/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.0132398,51.4056819]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bruton",
+         "facebook":"[[https://www.facebook.com/groups/240572503525433/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.452895,51.113338]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bucharest",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/405621910043180/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[26.1025384,44.4267674]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Buenos Aires",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionArgentina/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-58.3815591,-34.6036844]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bulgaria",
+         "website":"[[http://XRBulgaria.earth|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionbulgaria|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/borbazasyshestvuvane|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[25.48583,42.733883]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bury Saint Edmunds",
+         "facebook":"[[https://www.facebook.com/BuryStEdsXR/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.7104932,52.2429228]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Bury",
+         "facebook":"[[https://www.facebook.com/groups/276928776518870/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.2966054,53.5933498]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Byron Bay",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionbyronbay/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[153.601977,-28.6473671]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cádiz",
+         "email":"[[|Email]]"
+         ,
+         "website":"[[https://www.elbrote-xr.org|Website]]"
+         ,
+         "facebook":"[[https://www.facebook.com/elbrotexr/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/brotexr/|Instagram]]"
+         ,
+         "youtube":"[[https://www.youtube.com/channel/UCu9XQP3kly3yppchZ__O2jA|Youtube]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-6.1831947,36.5316485]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Caerphilly"
+     },
+     "geometry": {"type":"Point","coordinates":[-3.218134,51.578829]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Calderdale",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Calderdale-2217300928552970/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.0156025,53.7412553]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Calgary",
+         "facebook":"[[https://www.facebook.com/groups/XRYYC/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-114.0708459,51.0486151]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cambridge",
+         "facebook":"[[https://www.facebook.com/groups/322313271891009/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.121817,52.205337]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Camden",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionCamden/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1425516,51.5390261]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Canada",
+         "website":"[[https://extinctionrebellion.ca/|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebelcanada|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionCanada/|Facebook]]"
+         ,
+         "youtube":"[[https://www.youtube.com/channel/UCYThdLKE6TDwBJh-qDC6ICA|Youtube]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellioncanada|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-106.346771,56.130366]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Canterbury",
+         "facebook":"[[https://www.facebook.com/groups/XRCanterbury/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.0789089,51.280233]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cape Breton",
+         "facebook":"[[https://www.facebook.com/groups/897854060603564/?ref=pages_profile_groups_tab&source_id=663791624017529|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-60.2044627,46.0241793]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cape Town",
+         "facebook":"[[https://www.facebook.com/groups/2214586885431693/?fref=gc&dti=228044261159153&hc_location=ufi|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebellionza|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[18.4240553,-33.9248685]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cardiff",
+         "facebook":"[[https://www.facebook.com/Cardiff-Extinction-Rebellion-261640811370664/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.17909,51.481581]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cardigan",
+         "facebook":"[[https://www.facebook.com/groups/extinctionrebellioncardigan/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.6601085,52.0828089]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Carlisle",
+         "facebook":"[[https://www.facebook.com/groups/XRCarlisle/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.932931,54.892473]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Carmarthenshire",
+         "facebook":"[[https://facebook.com/groups/595903917494230?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.3049081,51.8564534]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Caspe & Maella"
+     },
+     "geometry": {"type":"Point","coordinates":[-0.0408208,41.2344007]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"CBU",
+         "facebook":"[[https://www.facebook.com/groups/491181921390957/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-60.093884,46.170841]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Central Coast",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[151.2335592,-33.3208415]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Central Kentucky",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRebelKY/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-84.5604868,38.1866408]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Central Switzerland",
+         "facebook":"[[https://www.facebook.com/groups/xrzentralschweiz|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.4054164,46.9677657]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chambéry",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.917781,45.564601]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chelmsford",
+         "facebook":"[[https://www.facebook.com/groups/XRChelmsford/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.4685497,51.7355868]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cheltenham",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.0782533,51.8993855]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chesham",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/1013116438893353/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.612333,51.709401]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chesire",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/XRCheshire|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.51967,53.194262]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chicago",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRchicago/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrchicago/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/xrchicago|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-87.6297982,41.8781136]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chichester",
+         "facebook":"[[https://www.facebook.com/groups/969317859929677/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.774936,50.83761]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chile",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[https://www.instagram.com/xrchile|Twitter]]"
+         ,
+         "facebook":"[[https://facebook.com/xrchile/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrchile|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-70.6412692,-33.4356565]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"China",
+         "website":"[[http://thebaide.org/extinctionrebellion.cn/|Website]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[103.8867188,33.7243397]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Chippenham",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionchippenham/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.1195157,51.461514]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Christchurch",
+         "facebook":"[[https://www.facebook.com/XR.Chch/|Facebook]]"
+         ,
+         "instagram":"[[instagram.com/extinctionrebellionchch|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[172.6362254,-43.5320544]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ciudad Real",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.9273778,38.9848295]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Clare",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-8.9887384,52.8474255]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Colchester",
+         "facebook":"[[https://www.facebook.com/groups/xrcolchester/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.891874,51.895927]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cologne",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/CologneXr|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionKoeln/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.9602786,50.937531]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Colombia",
+         "facebook":"[[https://www.facebook.com/XRColombia/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-75.5707534,6.2496039]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Colorado",
+         "facebook":"[[https://www.facebook.com/groups/283940158923005/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-105.9578487,39.5500507]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Coos Bay"
+     },
+     "geometry": {"type":"Point","coordinates":[-124.2178903,43.3665007]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cork",
+         "facebook":"[[https://www.facebook.com/groups/179988322946109/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-8.4756035,51.8985143]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cornwall",
+         "facebook":"[[https://facebook.com/groups/1233398746801945?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-5.0499053,50.2623981]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Côte d'Ivoire"
+     },
+     "geometry": {"type":"Point","coordinates":[-5.54708,7.539989]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cowichan",
+         "facebook":"[[https://www.facebook.com/groups/745877162457929/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-123.6215502,48.7373094]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Croydon",
+         "facebook":"[[https://www.facebook.com/groups/266457054300767/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.098234,51.376165]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Cumbria",
+         "facebook":"[[https://www.facebook.com/groups/1935410399885898/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.7974835,54.5772323]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Czech Republic",
+         "website":"[[https://www.rebeliexr.cz|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRCzech|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[14.4378005,50.0755381]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Dalarna",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[facebook.com/extinctionrebelliondalarna/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[14.537003,61.004878]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Dallas"
+     },
+     "geometry": {"type":"Point","coordinates":[-96.7969879,32.7766642]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Delft",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.3570677,52.0115769]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Delhi",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionIndians/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[77.2217831,28.6862738]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Denmark",
+         "website":"[[https://xrdk.org|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/extinctionrdk|Twitter]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebelliondk/|Instagram]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionDK/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[12.5683372,55.6760968]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Denver",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionDenver/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/XRDenver|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-104.990251,39.7392358]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Derby",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/2437836196296611/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.4746186,52.9225301]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Devizes",
+         "facebook":"[[https://www.facebook.com/XRDevizes/?ref=br_rs|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrdevizesmarlborough/?hl=en|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.994828,51.3489069]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Doncaster",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XrDoncaster|Facebook]]"
+         ,
+         "instagram":"[[https://instagram.com/xrdoncaster|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.128462,53.52282]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Dorchester and Weymouth",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Dorchester-Weymouth-639592383156616/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.441181,50.7111639]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Dorking",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.332378,51.232202]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Dresden",
+         "facebook":"[[https://www.facebook.com/XRdresden/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebelliondresden/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/xr_dresden|Twitter]]"
+         ,
+         "website":"[[https://extinctionrebellion.de/og/dresden/|Website]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[13.7372621,51.0504088]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Dundee",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionDundee/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.970721,56.462018]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Durban",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Durban-1112850948912987|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[31.0218404,-29.8586804]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Durham",
+         "facebook":"[[https://www.facebook.com/groups/XRDurham/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.584852,54.77525]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"East Chicago",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/extinctionrebellionnwi/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-87.4547635,41.6392024]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"East Herts",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-East-Herts-403543953825643/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.028177,51.810437]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"East Suffolk and Ipswich",
+         "facebook":"[[https://www.facebook.com/XR-East-Suffolk-and-Ipswich-651129695343465/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.14822,52.056736]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ecuador"
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Edinburgh Area",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrEdinburgh/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.188267,55.953252]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Edmonton",
+         "facebook":"[[https://www.facebook.com/groups/376210942954621/?ref=br_rs|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-113.4909267,53.544389]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ely",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinction.rebellion.ely/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/ely_xr/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.262363,52.399539]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Enfield",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/pg/Extinction-Rebellion-Enfield-659016031239053|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.0807119,51.6522994]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Estonia",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XREesti|Facebook]]"
+         ,
+         "youtube":"[[https://www.youtube.com/channel/UC12W6RwjqrOlFEvRq10XheQ|Youtube]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellioneesti/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[24.8249186,59.4164641]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Eugene",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Eugene-XR-Eugene-2229135340472435/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-123.0867536,44.0520691]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Exeter",
+         "facebook":"[[https://www.facebook.com/XRExeter/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.53389900000002,50.718412]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Extiinction  Shelburne",
+         "facebook":"[[https://www.facebook.com/groups/737668726612244/?ref=pages_profile_groups_tab&source_id=663791624017529|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-65.3240227,43.7643579]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Far North Queensland",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionFNQ/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[145.777031,-16.923299]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Finland",
+         "website":"[[https://ExtinctionRebellion.fi|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/xrfinland|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrsuomi|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/elokapina|Instagram]]"
+         ,
+         "youtube":"[[https://www.youtube.com/channel/UCHrt6PAbGFTbI1g3UtHsUuQ|Youtube]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[24.931407,60.1650166]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Flagstaff",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-111.651302,35.1982836]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Forest of Dean",
+         "facebook":"[[https://www.facebook.com/groups/XRFOD/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.5519169,51.7999835]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Fort William"
+     },
+     "geometry": {"type":"Point","coordinates":[-5.1052179,56.819817]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"France",
+         "diaspora":"[[https://framasphere.org/u/xrfrance|Diaspora]]"
+         ,
+         "facebook":"[[https://facebook.com/xrfrance|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionfrance|Instagram]]"
+         ,
+         "mastodon":"[[https://social.rebellion.global/@xrfrance|Mastodon]]"
+         ,
+         "peertube":"[[https://tube.extinctionrebellion.fr|Peertube]]"
+         ,
+         "twitter":"[[https://twitter.com/XtinctionRebel|Twitter]]"
+         ,
+         "website":"[[https://ExtinctionRebellion.fr|Website]]"
+         ,
+         "youtube":"[[https://www.youtube.com/channel/UCSJFmDCxyjkxVsZNJUymZWQ|Youtube]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[2.213749,46.227638]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Frankfurt"
+     },
+     "geometry": {"type":"Point","coordinates":[8.68212670000003,50.1109221]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Fraser Valley",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Fraser-Valley-591515817958548/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.0951591,49.104066]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Fredericia",
+         "diaspora":"[[#|Diaspora]]"
+         ,
+         "facebook":"[[#|Facebook]]"
+         ,
+         "instagram":"[[#|Instagram]]"
+         ,
+         "peertube":"[[#|Peertube]]"
+         ,
+         "twitter":"[[#|Twitter]]"
+         ,
+         "website":"[[http://www.xrdk.org|Website]]"
+         ,
+         "youtube":"[[#|Youtube]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.749517,55.5689298]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Freiburg",
+         "instagram":"[[https://www.instagram.com/extinctionrebellionfreiburg/|Instagram]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.842137,47.998998]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Fribourg",
+         "facebook":"[[https://www.facebook.com/xrfribourg/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.1619719,46.8064773]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Frome",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Frome-352703285293260/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.32009600000004,51.230751]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Galiza",
+         "facebook":"[[https://www.facebook.com/extinctionrebelliongaliza/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-7.863881,42.3357893]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Galway",
+         "facebook":"[[https://www.facebook.com/groups/1935353643198091/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-9.0567905,53.270668]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Gdańsk",
+         "facebook":"[[https://www.facebook.com/xrtrojmiasto/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[18.6466384,54.3520252]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Geneva",
+         "facebook":"[[https://www.facebook.com/XRgeneve/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.1431577,46.2043907]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Germany",
+         "website":"[[https://extinctionrebellion.de/|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/ExtinctionR_DE|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionDeutschland/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebelliondeutschland/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[10.0025458,53.5555111]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ghana",
+         "facebook":"[[https://www.facebook.com/Ablodenunyansa-415256132147081/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.023194,7.946527]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ghent",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[3.7174243,51.0543422]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Giessen",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrgiessen/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.6784031,50.5840512]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Girona"
+     },
+     "geometry": {"type":"Point","coordinates":[2.8214264,41.9794005]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Glasgow",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRGlasgow/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.2510789,55.8591489]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Glastonbury",
+         "facebook":"[[https://www.facebook.com/groups/557076771399222/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.71845400000007,51.147427]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Global"
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Gloucester",
+         "facebook":"[[https://www.facebook.com/groups/GloucesterXRGroup/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.238156,51.8642449]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Godalming",
+         "facebook":"[[www.facebook.com/ExtinctionRebellionGodalming|Facebook]]"
+         ,
+         "twitter":"[[twitter.com/XR_Godalming|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.612808,51.185732]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Goma"
+     },
+     "geometry": {"type":"Point","coordinates":[29.2204548,-1.658501]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Gothenburg",
+         "facebook":"[[https://www.facebook.com/XRGoteborg/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[11.97456,57.70887]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Gotland",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionsverige/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[18.4867447,57.4684121]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Granada",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebelliongranada|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.5985571,37.1773363]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Grand Rapids, MI",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionGrandRapids/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-85.6680863,42.9633599]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Grantham",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.643582,52.912524]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Greece",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrgreece|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebelliongreece|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[23.7275388,37.9838096]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Greenwich",
+         "twitter":"[[https://twitter.com/XRGreenwich|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.0098214,51.4933675]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Groningen",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRGroningen|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrgroningen/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.5665017,53.2193835]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Guelph",
+         "facebook":"[[https://www.facebook.com/groups/2070558789921554/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-80.2481666,43.5448048]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Guildford",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/823139914745875/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrguildford/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/XRGuildford|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.570409,51.23622]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hackney",
+         "facebook":"[[https://www.facebook.com/groups/1120851064762330/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.054215,51.544205]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hailsham",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Hailsham-331853447502871/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.255234,50.864612]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Haliburton",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-78.5068228,45.0472004]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Halifax, NS",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionNovaScotia/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionns/|Instagram]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-63.6061721,44.6505335]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Halifax",
+         "facebook":"[[https://www.facebook.com/groups/370271643518267/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.85754,53.72702]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hamburg",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.9936819,53.5510846]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hamilton",
+         "facebook":"[[https://www.facebook.com/groups/1958153707625681/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-79.8711024,43.2557206]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hampton Roads",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/ExtinctionRebellionHR/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-76.3805718,36.9490374]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hannover",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrhannover|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrhannover/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/xrhannover|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.7320104,52.3758916]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Haringey",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Haringey-2246306892259130/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1109709,51.5906113]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hasselt",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/340089233518529/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.33248,50.93069]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hastings",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.573453,50.854259]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Havering",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://m.facebook.com/Extinction-Rebellion-Havering-385995962006267/?ref=bookmarks|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.2120829,51.577924]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hawaii",
+         "facebook":"[[https://www.facebook.com/groups/extinctionrebellionhi/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-155.5827818,19.8967662]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Heidelberg",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRHeidelberg|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionheidelberg|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/XR_Heidelberg|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.6724335,49.3987524]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Helsinki",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[24.9383791,60.1698557]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Henley-on-Thames",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.902894,51.535764]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hereford",
+         "facebook":"[[https://www.facebook.com/groups/Xr.hereford/?fref=nf|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.715974,52.056398]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hertfordshire",
+         "facebook":"[[https://www.facebook.com/groups/1960231464280262/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.3327907,51.7514315]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Highlands and Islands",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRHighlandsAndIslands/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/XRHighlands|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.2273462,57.4764114]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Highworth",
+         "facebook":"[[https://www.facebook.com/groups/611857345936314/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.710398,51.632861]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hillingdon",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Hillingdon-Rebels-331802980864421/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.4481378,51.5351832]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hong Kong",
+         "website ::construction":"[[|Website ::construction]]"
+         ,
+         "twitter":"[[https://twitter.com/XRHongKong|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionhk|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[114.1693611,22.3193039]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Howe Sound",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Howe-Sound-344374429706218/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-123.2758925,49.4725075]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Huddersfield",
+         "facebook":"[[https://www.facebook.com/groups/2316467181971364/?ref=group_header|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.7850351,53.645792]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hull",
+         "facebook":"[[https://facebook.com/groups/302665290556049?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.3316749,53.7444168]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Hungary",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrhungary/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[19.064955,47.5034799]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ibiza",
+         "facebook":"[[https://www.facebook.com/groups/1008612622660633/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.4205983,38.9067339]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Iceland",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionisland|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-21.9426354,64.146582]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"India",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionIndians/|Facebook]]"
+         ,
+         "website":"[[https://extinctionrebellion.in/|Website]]"
+         ,
+         "instagram":"[[https://www.instagram.com/indiaextinctionrebellion/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/IndiaExtinction|Twitter]]"
+         ,
+         "youtube":"[[https://www.youtube.com/watch?v=e1NrKW3nAWU|Youtube]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[78.5742188,21.9430455]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Indians",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionIndians/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[71.1923805,22.258652]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Indigenous Solidarity",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Nueva-Jersey-2476830242600269/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-74.0021707,40.7248676]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Indonesia",
+         "website":"[[https://extinctionrebellion.id/|Website]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[106.845599,-6.2087634]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Innsbruck",
+         "facebook":"[[https://www.facebook.com/Extinction.Rebellion.Innsbruck/ |Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[11.4041024,47.2692124]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ireland",
+         "website":"[[https://extinctionrebellionireland.com|Website]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionIreland/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/ExtinctRebelsIE|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-6.2603097,53.3498053]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Isere",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Is%C3%A8re-2012929592343497/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.9293476,44.9957745]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Isle of Man",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/2349443275075851/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellioniom/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.4944992,54.1477386]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Isle of Wight",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Isle-of-Wight-211264996418324/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.2935704,50.6980876]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Islington",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1028346,51.538621]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Israel",
+         "facebook":"[[https://facebook.com/XRisrael|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/IsraelRebellion|Twitter]]"
+         ,
+         "website":"[[https://xrebellionisrael.earth|Website]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[34.851612,31.046051]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Italy",
+         "website":"[[https://extinctionrebellion.it|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/437449079992924/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[12.960142,41.8883014]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Japan",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionjapan|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrjapan|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/XRJapan|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[138.252924,36.204824]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Jersey",
+         "facebook":"[[https://www.facebook.com/groups/xrjersey/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.103233,49.1805019]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Joensuu",
+         "facebook":"[[https://www.facebook.com/XR-Joensuu-1211920212300607/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[29.7635719,62.6010155]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Johannesburg",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebellionza|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[28.0473051,-26.2041028]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Jura Suisse",
+         "facebook":"[[https://www.facebook.com/XRJURA/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.1761322,47.361153]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kansas City",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Kansas-City-330501844461514/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "instagram":"[[https://instagram.com/extinctionrebellionkc?utm_source=ig_profile_share&igshid=1ua9zsjkw23rm|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-94.6267873,39.1155314]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Karlsruhe",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.4036527,49.0068901]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kassel",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionkassel/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.4797461,51.3127114]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kensington and Chelsea",
+         "facebook":"[[https://www.facebook.com/groups/2199940527002068/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1614216,51.4912472]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kent",
+         "facebook":"[[https://www.facebook.com/groups/119216762346875/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.5217254,51.2787075]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kerala",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionIndians/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[76.2710833,10.8505159]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kiel",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/xr_kiel|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[10.1227651,54.3232927]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kilkenny",
+         "facebook":"[[https://www.facebook.com/groups/XRKilkenny/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-7.2447879,52.6541454]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"King's Lynn",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/852368395123377/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/xrkingslynn|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.4022963,52.7516798]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kingston",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.300689,51.41233]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kington",
+         "facebook":"[[https://www.facebook.com/groups/2472727156337898/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.029048,52.203742]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Knighton",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.046971,52.341009]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Konstanz",
+         "facebook":"[[https://www.facebook.com/XR-extinction-rebellion-Konstanz-829605844041451/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.1732384,47.6779496]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Kyoto",
+         "facebook":"[[https://www.facebook.com/groups/XRKyoto/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[135.7681489,35.011564]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"La Plata",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionArgentina/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-57.8656751,-34.9204948]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lahti",
+         "facebook":"[[https://www.facebook.com/xrlahti/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[25.6612096,60.9826749]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lambeth",
+         "facebook":"[[https://www.facebook.com/groups/270192010579655/about/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1109344,51.4614212]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lampeter"
+     },
+     "geometry": {"type":"Point","coordinates":[-4.078509,52.112903]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lancashire",
+         "facebook":"[[https://www.facebook.com/XRlancs/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.7954186,54.0282278]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lancaster"
+     },
+     "geometry": {"type":"Point","coordinates":[-2.8007399,54.046575]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Laramie",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionWY|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-105.5911007,41.3113669]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lausanne",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrlausanne/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.6322734,46.5196535]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Le Mans",
+         "facebook":"[[https://www.facebook.com/xrlemans/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.199556,48.00611]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Leeds Students",
+         "facebook":"[[https://www.facebook.com/groups/201110860766755/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.55503279999994,53.8066815]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Leeds",
+         "facebook":"[[https://www.facebook.com/extinctionrleeds/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.5490774,53.8007554]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Leicester",
+         "facebook":"[[https://facebook.com/groups/1267382900068703?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.1345969,52.6346625]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Leiden University",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/346193026204453/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.48520899999994,52.1571485]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Leipzig",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionLeipzig/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[12.3730747,51.3396955]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Leuven",
+         "facebook":"[[https://www.facebook.com/groups/1206233782876783/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.7005176,50.8798438]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lewes",
+         "facebook":"[[https://www.facebook.com/rebellewes/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.00878,50.873872]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lewisham",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Lewisham--318996115607592/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.0073177,51.4611509]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lille",
+         "facebook":"[[https://www.facebook.com/groups/558711854574843/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[3.05725600000005,50.62925]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lincolnshire",
+         "facebook":"[[https://www.facebook.com/groups/ExtinctionRebellionLincolnshire/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.540579,53.230688]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Linz",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRLinz/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[14.28583,48.30694]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lisbon",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XR.Portugal/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-9.1373876,38.7297305]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lismore",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/917844548552328/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[153.2882876,-28.8093154]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lithuania"
+     },
+     "geometry": {"type":"Point","coordinates":[25.2796514,54.6871555]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Liverpool",
+         "facebook":"[[https://www.facebook.com/groups/477540839404084/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.9915726,53.4083714]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Llangollen",
+         "facebook":"[[https://www.facebook.com/groups/415470155909615/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.17166,52.969215]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Llanidloes",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/381098012684708/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.540195,52.447794]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"London, Ontario",
+         "facebook":"[[https://www.facebook.com/groups/2219114871747517/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-81.2452768,42.9849233]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"London Universities",
+         "facebook":"[[https://www.facebook.com/groups/XRLondonUnis/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.1318247,51.5126015]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Los Angeles",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionLA/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/XRebellionLA|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-118.2436849,34.0522342]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"LUC students",
+         "facebook":"[[https://www.facebook.com/groups/320117645257936/about/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.32607899999994,52.0817493]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lucerne",
+         "facebook":"[[https://www.facebook.com/XRLuzern/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.3093072,47.0501682]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ludlow & Leominster",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/XRLudlowAndLeominster/about/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.742772,52.2257]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lund"
+     },
+     "geometry": {"type":"Point","coordinates":[13.1910073,55.7046601]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lunenburg, NS",
+         "facebook":"[[https://www.facebook.com/groups/340678686529773/?source_id=663791624017529|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-64.3188354,44.3770053]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Luton",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[www.facebook.com/groups/XRLuton|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.4200255,51.8786707]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Luxembourg",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionLux/|Facebook]]"
+         ,
+         "website":"[[|Website]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Lyon",
+         "facebook":"[[https://www.facebook.com/groups/194910381452243/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.835659,45.764043]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Maastricht",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrmaastricht/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.6909725,50.8513682]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Macclesfield",
+         "facebook":"[[https://www.facebook.com/XRMacc/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.119287,53.258663]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Machynlleth",
+         "facebook":"[[https://www.facebook.com/XR-Machynlleth-414013035801773/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.853485,52.590273]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Madison",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[facebook.com/XRMadison/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-89.4012302,43.0730517]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Madrid",
+         "facebook":"[[https://www.facebook.com/groups/263390121007984/?ref=br_rs|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.6735161,40.4335139]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mainz",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRMainz/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/EXTINCTIONREBELLIONMAINZ/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.2472526,49.9928617]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mallorca",
+         "facebook":"[[https://www.facebook.com/xrmallorca/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[3.0175712,39.6952629]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Malvern Hills",
+         "facebook":"[[https://www.facebook.com/XRMalvern/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.337761,52.1035321]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Manawatu",
+         "facebook":"[[https://www.facebook.com/XRManawatu/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[175.6082145,-40.3523065]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Manchester",
+         "facebook":"[[https://m.facebook.com/profile.php?id=256979218291453&ref=content_filter|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.2366637,53.4809393]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Manitoba",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Manitoba-787519548264465/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-98.8138762,53.7608608]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Marin County",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XREBELLIONMARIN/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.7633036,38.083403]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Marlow",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrmarlow/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.7769422,51.5719443]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Marseille",
+         "facebook":"[[https://www.facebook.com/groups/256590138547742/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.36978,43.296482]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Martigny",
+         "facebook":"[[https://www.facebook.com/exsvc/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.0755334,46.1049798]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mauritius",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Mauritius-623908154723750/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[57.552152,-20.348404]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Medway",
+         "facebook":"[[https://www.facebook.com/groups/282947075751345/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.5269266,51.3804188]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Melbourne",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRAustralia/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/XRebellionAus|Twitter]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrebellionaus|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[144.9630576,-37.8136276]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mexico City",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-M%C3%A9xico-564885260646075/|Facebook]]"
+         ,
+         "instagram":"[[https://instagram.com/xr_mex?utm_source=ig_profile_share&igshid=12nwxinbhefux|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-99.1013498,19.2464696]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mexico",
+         "facebook":"[[https://www.facebook.com/xrmex/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xr_mex/|Instagram]]"
+         ,
+         "youtube":"[[https://www.youtube.com/watch?v=mMvt3lxSQMo|Youtube]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Miami",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRMIAMI|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-80.1917902,25.7616798]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mid-Cost",
+         "facebook":"[[https://www.facebook.com/groups/325465334805338/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[152.4444453,-31.8894897]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Milan"
+     },
+     "geometry": {"type":"Point","coordinates":[9.189982,45.4642035]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Milton Keynes",
+         "facebook":"[[https://facebook.com/groups/259886861392839?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.7586041,52.0358883]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Minneapolis/St Paul",
+         "facebook":"[[https://www.facebook.com/groups/503715003445232/?fref=nf|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-93.2650108,44.977753]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Moldova",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/EXRMoldova/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[28.8638102,47.0104529]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Mons / Borinage",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Mons-Borinage-2333184550076537/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[3.956659,50.4542408]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Montana",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Montana-1439244152844898/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-114.1631275,47.6932004]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Monterey County",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRmontereyCA/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-121.8233759,36.5754382]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Montreal",
+         "facebook":"[[https://www.facebook.com/Extinction.Rebellion.QC/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-73.567256,45.5016889]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Morecambe Bay",
+         "facebook":"[[https://www.facebook.com/groups/617388058676233/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.864968,54.074166]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Moretonhampstead",
+         "facebook":"[[https://www.facebook.com/groups/2214193451979890/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.767893,50.659678]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Munich",
+         "facebook":"[[https://www.facebook.com/XRMunich/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[11.5819805,48.1351253]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Namur",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionNamur/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/XRNamur|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.8719854,50.4673883]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Nantes",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRNantes/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.5383844,47.2090471]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Neath Port Talbot",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/XRNeathPortTalbot/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.805476,51.656991]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Nelson",
+         "facebook":"[[https://www.facebook.com/groups/296108911000774/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[173.2839653,-41.2706319]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Netherlands",
+         "website":"[[https://extinctionrebellion.nl/|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/nlrebellion|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionNL/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellion/?hl=nl|Instagram]]"
+         ,
+         "mastodon":"[[https://newsbots.eu/@NLRebellion|Mastodon]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.7668485,52.3000141]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Neuchâtel",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRNeuchatel/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.9292732,46.9899874]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"New Brunswick",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-New-Brunswick-2007820362638940/?modal=admin_todo_tour|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-66.4619164,46.5653163]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"New Gold",
+         "facebook":"[[https://www.facebook.com/groups/2294728604089026/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.035408,51.474271]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"New York",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-NYC-1091305144385469/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-74.0059728,40.7127753]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"New Zealand",
+         "website":"[[https://ExtinctionRebellion.nz|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/extinctionnz|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionAotearoaNewZealand|Facebook]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Newbury"
+     },
+     "geometry": {"type":"Point","coordinates":[-1.3231139,51.401409]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Newcastle",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionNewcastle/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[151.7816802,-32.9282712]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Newport",
+         "facebook":"[[https://www.facebook.com/groups/ExtinctionRebellionNewport/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.997664,51.584151]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Newtown",
+         "facebook":"[[https://www.facebook.com/xrnewtown/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.313106,52.512112]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Nigeria"
+     },
+     "geometry": {"type":"Point","coordinates":[8.675277,9.081999]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North Cornwall",
+         "facebook":"[[https://facebook.com/groups/2388575631184120?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.7501659,50.6622326]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North Devon",
+         "facebook":"[[https://www.facebook.com/groups/300887580763447/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.058338,51.0781599]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North East",
+         "facebook":"[[https://www.facebook.com/groups/744510365884644/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.61778,54.978252]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North Herts",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Letchworth-315028929099889/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.2098369,51.9770568]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionnorth/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.2471947,53.4824156]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North Wales",
+         "facebook":"[[https://www.facebook.com/groups/750550595293602?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.1313864,53.2260526]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"North West Kent",
+         "facebook":"[[https://www.facebook.com/groups/495294037613850/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.216872,51.44621]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Northampton"
+     },
+     "geometry": {"type":"Point","coordinates":[-0.902656,52.240477]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Northern Ireland",
+         "facebook":"[[https://www.facebook.com/groups/2107160366043892/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-6.4923145,54.7877149]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Norway",
+         "website":"[[https://Extinction.no|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/ExtinctionR_NO|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/Klimaopproret|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrnorway|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[10.7522454,59.9138688]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Norwich",
+         "facebook":"[[https://www.facebook.com/xrnorwich/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.297355,52.6308859]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Norwich/UEA students",
+         "facebook":"[[https://www.facebook.com/groups/273756140002807/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.2391761,52.6219215]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Nottingham",
+         "facebook":"[[https://www.facebook.com/groups/XRNottm/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.1581086,52.9547832]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Nova Scotia",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionNovaScotia/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-63.744311,44.6819866]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Nuremberg",
+         "facebook":"[[https://www.facebook.com/XRNuernbergErlangen/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[11.0766654,49.4521018]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Olomouc",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[17.2508787,49.593778]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ontario",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionontario/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-85.323214,51.253775]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Örebro",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionsverige/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[15.2113518,59.2787717]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Orkney",
+         "facebook":"[[https://facebook.com/Extinction-Rebellion-Orkney-537960006736623/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.7438759,58.936601]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Orlando",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrorlando/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-81.3792365,28.5383355]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Oswestry",
+         "facebook":"[[https://www.facebook.com/groups/795463484123601/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.056412,52.857148]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Otepoti Dunedin",
+         "facebook":"[[https://www.facebook.com/groups/1959189834160074/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[170.5027976,-45.8787605]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ottawa",
+         "facebook":"[[https://www.facebook.com/groups/1967936503261500/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-75.6971931,45.4215296]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Oxford Students",
+         "facebook":"[[https://www.facebook.com/groups/557913278003987/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.2543668,51.7548164]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Oxford",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionOxford/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/xr_oxford|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.2601054,51.7548224]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"PACA",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/256590138547742/?ref=bookmarks|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[6.0679194,43.9351691]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pakistan",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionpakistan/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[74.3587473,31.5203696]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Paris",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Paris-313826469348359/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[2.3522219,48.856614]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pays de la Loire",
+         "facebook":"[[https://www.facebook.com/Extinction-r%C3%A9bellion-Pays-de-la-Loire-2195248734080260/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.3299687,47.7632836]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Peak District",
+         "facebook":"[[https://www.facebook.com/groups/275042886688545/ |Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.5623885,53.1046782]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pembrokeshire",
+         "facebook":"[[https://www.facebook.com/groups/2190453237868296/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.908637,51.674043]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pen-llyn",
+         "facebook":"[[https://www.facebook.com/groups/2196133903809232/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.1564145,53.1393098]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Penrith",
+         "facebook":"[[https://m.facebook.com/groups/236650633887984?ref=share|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.752558,54.663389]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Penwith",
+         "facebook":"[[https://www.facebook.com/XRinPenwith/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-5.06627,50.152571]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Peterborough, ON",
+         "facebook":"[[https://www.facebook.com/groups/272253003432536/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-78.319747,44.309058]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Peterborough",
+         "facebook":"[[https://www.facebook.com/groups/1048568115334289/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.2443137,52.5743042]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Petersfield",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrpetersfield/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.93899,51.007591]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Philadelphia",
+         "facebook":"[[https://www.facebook.com/xrphilly/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrphilly/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/Philly|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-75.1652215,39.9525839]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Philippines"
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Piedmont"
+     },
+     "geometry": {"type":"Point","coordinates":[7.5153885,45.0522366]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pittsburgh",
+         "facebook":"[[https://www.facebook.com/XRPittsburgh/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-79.9958864,40.4406248]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Plumstead",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.0865014,51.4873853]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Plymouth",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Plymouth-225745904815672/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.1426565,50.3754565]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Poland",
+         "facebook":"[[https://www.facebook.com/XRPolska/|Facebook]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pōneke",
+         "facebook":"[[https://www.facebook.com/groups/XRPoneke/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[174.776236,-41.2864603]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Portland",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Portland-XR-PDX-375031913322938/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.6587185,45.5122308]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Porto",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionPorto/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-8.6291053,41.1579438]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Portsmouth",
+         "facebook":"[[https://www.facebook.com/XRPortsmouth/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.0879769,50.8197675]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Portugal",
+         "facebook":"[[https://www.facebook.com/XR.Portugal/|Facebook]]"
+         ,
+         "website":"[[http://rebeldespelavida.climaximo.pt/|Website]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Potsdam",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[13.0644729,52.3905689]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Poznań",
+         "facebook":"[[https://www.facebook.com/XRPolska/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[16.9251681,52.406374]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Preston",
+         "facebook":"[[https://www.facebook.com/groups/401934003935937/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.6979093,53.7594457]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Pretoria",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebellionza|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[28.2292712,-25.7478676]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Prince Edward Island",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Prince-Edward-Island-330965547487923/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-63.4168136,46.510712]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Puerto Escondido",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-M%C3%A9xico-564885260646075/|Facebook]]"
+         ,
+         "instagram":"[[https://instagram.com/xr_mex?utm_source=ig_profile_share&igshid=12nwxinbhefux|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-97.0767365,15.8719795]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Purbeck",
+         "facebook":"[[https://www.facebook.com/XRPurbeck/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.9644971,50.609423]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Qatar",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[@ExtinctionQTR|Twitter]]"
+         ,
+         "facebook":"[[@ExtinctionQTR|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[51.183884,25.354826]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Quebec",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-73.5491361,52.9399159]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Queenstown Lakes",
+         "facebook":"[[https://www.facebook.com/XRNZQTL/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[168.6661591,-44.8856366]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Reading",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Reading-526695181144255/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.9781303,51.4542645]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Red Bank"
+     },
+     "geometry": {"type":"Point","coordinates":[-74.0643065,40.3470543]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Reigate and Redhill",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/1227847534060448/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.2056517,51.2294824]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Rennes",
+         "facebook":"[[https://www.facebook.com/groups/366006224155313/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.6777926,48.117266]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Rhode Island"
+     },
+     "geometry": {"type":"Point","coordinates":[-71.4774291,41.5800945]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Richmond",
+         "facebook":"[[https://www.facebook.com/groups/1951832541605560/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-77.4360481,37.5407246]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Riga",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[24.1051865,56.9496487]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Roma",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionRoma/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[12.4962352,41.9027008]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Romania",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrcluj/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[23.6236353,46.7712101]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Romano di Lombardia",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.7550117,45.5210652]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Romsey",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://m.facebook.com/XRRomsey/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.49658,50.98893]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Rotterdam",
+         "facebook":"[[https://www.facebook.com/XR010|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.4777326,51.9244201]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Rugby",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/606059683213342/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.265032,52.370878]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Ruhrgebiet",
+         "twitter":"[[https://twitter.com/XR_Ruhrgebiet|Twitter]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.4699432,51.5119986]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Rye",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.73726,50.949708]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sacramento",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Sacramento-1883461371762574/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-121.4943996,38.5815719]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sai Kung",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/275364613344337|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[114.2707867,22.383689]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Saint Andrews",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionStAndrews/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.7967214,56.3397753]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Salisbury",
+         "facebook":"[[https://www.facebook.com/XRsalisbury/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.794472,51.068785]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Salt Lake City",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://facebook.com/ExtinctionRebellionUS/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-111.8910474,40.7607793]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Santiago",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionSCL|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-70.6692655,-33.4488897]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Saskatchewan",
+         "facebook":"[[https://www.facebook.com/groups/1108901595950923/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-106.0998324,54.3446892]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sault",
+         "facebook":"[[https://www.facebook.com/XRSault/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-84.3357526,46.5136494]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Scarborough",
+         "facebook":"[[https://www.facebook.com/groups/1087063308140926/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.399752,54.283113]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Scotland",
+         "twitter":"[[@ScotlandXr|Twitter]]"
+         ,
+         "give":"[[https://www.justgiving.com/crowdfunding/extinctionrebellionscotland|Give]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRScotland/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.0443588,56.6501518]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Scunthorpe",
+         "facebook":"[[https://www.facebook.com/xrscunny/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.654413,53.588646]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Seaton",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.0718734,50.7053134]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Seattle",
+         "facebook":"[[https://www.facebook.com/XRSeattle/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.3320708,47.6062095]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sevenoaks",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.190898,51.27241]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"SF Bay",
+         "facebook":"[[https://m.facebook.com/ExtinctionRebellionSF/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/XRBayArea|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-122.3107517,37.6909682]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Shaftesbury",
+         "facebook":"[[https://www.facebook.com/groups/1105509316286885/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.198083,51.0046]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sheffield",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Sheffield-554478098325422/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.470085,53.381129]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Shoreham-by-Sea",
+         "facebook":"[[https://www.facebook.com/groups/2048726605419688|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/xrshorehambysea/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/RebellionBy|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.2715558,50.8342086]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Shrewsbury",
+         "facebook":"[[https://www.facebook.com/groups/2193736957511582/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.75532680000003,52.7073029]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Skåne",
+         "facebook":"[[https://www.facebook.com/XRSkane/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[13.0595512,55.6102135]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Skibbereen"
+     },
+     "geometry": {"type":"Point","coordinates":[-9.2621303,51.5559244]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sleaford"
+     },
+     "geometry": {"type":"Point","coordinates":[-0.40965,53.0003079]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Slovakia",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://facebook.com/xrslovakia|Facebook]]"
+         ,
+         "instagram":"[[https://instagram.com/xrslovakia|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[17.1077478,48.1485965]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Slovenia",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[14.5057515,46.0569465]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Solomon Islands",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Solomon-Islands-2353234968082707/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[160.156194,-9.64571]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Somerset",
+         "facebook":"[[https://m.facebook.com/groups/500601190441519?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.3216199,51.2301463]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Soria"
+     },
+     "geometry": {"type":"Point","coordinates":[-2.4791164,41.7662131]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"South Africa (Mzansi)",
+         "facebook":"[[|Facebook]]"
+         ,
+         "website":"[[http://extinctionrebellion.org.za/|Website]]"
+         ,
+         "youtube":"[[https://www.youtube.com/watch?v=TQGJM18xCsw|Youtube]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"south East Cornwall",
+         "facebook":"[[https://www.facebook.com/groups/ExtinctionRebellionSouthEastCornwall/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.7834252,50.3403779]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"South Galway",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-8.8187485,53.0666432]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"South Korea"
+     },
+     "geometry": {"type":"Point","coordinates":[126.9779692,37.566535]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"South Lakes",
+         "facebook":"[[https://www.facebook.com/XR4SL/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.74629,54.328006]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"South Somerset",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-South-Somerset-1154799754678273/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.633308,50.942061]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Southampton",
+         "facebook":"[[https://www.facebook.com/XRSouthampton/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.4043509,50.9097004]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Southend-on-Sea",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/655677518208664/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[0.7077123,51.5459269]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Southern Vermont",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Southern-Vermont-321121251895117/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-72.5578678,42.8509152]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Southwark",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Southwark-2168793353433779/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/southwarkxr|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.087738,51.502781]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Southwest England",
+         "facebook":"[[https://www.facebook.com/XRSWE/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.4979169,50.7016417]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Spain",
+         "website":"[[https://www.extinctionrebellion.es|Website]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Spain-555654874877461/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.8236644,40.2954133]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"St Albans"
+     },
+     "geometry": {"type":"Point","coordinates":[-0.339436,51.752725]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"St Ives",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/XRinPenwith/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-5.4908864,50.2083858]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"St. Louis",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionStL/590043918134273|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-90.1994042,38.6270025]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Stirling",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Stirling-600008483766629/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.9369029,56.1165227]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Stoke",
+         "facebook":"[[https://www.facebook.com/XRstoke/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.179404,53.002668]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Stratford-upon-Avon",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.708298,52.19173]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Stroud",
+         "facebook":"[[https://facebook.com/groups/2096572373902353?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.2168686,51.7454675]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Stuttgart",
+         "twitter":"[[https://twitter.com/StuttgartXr|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[9.1829321,48.7758459]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sunderland",
+         "facebook":"[[https://www.facebook.com/groups/1304318013040642/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.383801,54.906869]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sunshine Coast BC",
+         "facebook":"[[https://www.facebook.com/XRSunshineCoastBC/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-123.7545601,49.4741736]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Surrey",
+         "facebook":"[[https://m.facebook.com/groups/594376820734476?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.2667684,51.2384571]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sutton",
+         "email":"[[|Email]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionsutton/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.193961,51.3614279]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Swansea",
+         "facebook":"[[https://facebook.com/groups/351563415614841?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.9451467,51.6193161]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sweden",
+         "website":"[[https://extinctionrebellion.se|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/ExtinctionR_SV|Twitter]]"
+         ,
+         "facebook":"[[https://facebook.com/extinctionrebellionsverige|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[18.0753981,59.3273159]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Swindon",
+         "facebook":"[[https://www.facebook.com/groups/xrswindon/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.7797176,51.5557739]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Switzerland",
+         "website":"[[https://XRebellion.ch|Website]]"
+         ,
+         "twitter":"[[|Twitter]]"
+         ,
+         "facebook":"[[https://facebook.com/XRSwitzerland|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.5251532,47.3694817]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Sydney",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[http://www.facebook.com/xrnsw|Facebook]]"
+         ,
+         "instagram":"[[http://www.instagram.com/climateactionnsw/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[151.2092955,-33.8688197]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Taiwan",
+         "website":"[[http://ExtinctionRebellion.tw|Website]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/489326568487680/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebelliontaiwan/|Instagram]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tāmaki Makaurau",
+         "facebook":"[[https://www.facebook.com/groups/199494714306230/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[174.7633315,-36.8484597]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tampa Bay",
+         "facebook":"[[facebook.com/xrtampabay|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-82.4495915,27.9534023]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tampere",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Tampere-636894946729387/|Facebook]]"
+         ,
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/xrtampere|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[23.7609535,61.4977524]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tasmania",
+         "facebook":"[[https://www.facebook.com/TazzyXR/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[145.9706647,-41.4545196]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tatamagouche",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-North-Shore-Nova-Scotia-2243553329008848/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-63.2941871,45.7092048]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Taunton",
+         "facebook":"[[https://www.facebook.com/groups/298375854345261/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.106849,51.015344]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tauranga",
+         "facebook":"[[https://www.facebook.com/groups/335689393910640/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[176.1651295,-37.6877975]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Teesside",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionTeesside/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.290961,54.612537]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Telford",
+         "facebook":"[[https://www.facebook.com/groups/telfordxr|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.445258,52.678419]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Thames Ditton",
+         "facebook":"[[https://www.facebook.com/XRThamesDitton/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.339189,51.389686]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Thames",
+         "facebook":"[[https://www.facebook.com/groups/564629983970207/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[175.5413497,-37.1384423]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Thanet",
+         "facebook":"[[https://www.facebook.com/groups/extinctionrebellionthanet/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.3484663,51.3602516]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"The Hague",
+         "website":"[[https://www.extinctionrebellion.nl|Website]]"
+         ,
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionNL|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/NLRebellion|Twitter]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionnl|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[4.30069990000004,52.0704978]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tigard"
+     },
+     "geometry": {"type":"Point","coordinates":[-122.7872599,45.4186798]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tighnabruaich"
+     },
+     "geometry": {"type":"Point","coordinates":[-5.2329104,55.9069394]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Togo"
+     },
+     "geometry": {"type":"Point","coordinates":[0.824782,8.619543]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Toronto",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionontario/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-79.3831843,43.653226]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Totnes",
+         "facebook":"[[https://facebook.com/groups/294577058060542?group_view_referrer=profile_browser|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.6855308,50.4316963]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Toulouse",
+         "facebook":"[[https://www.facebook.com/OccupyToulouse/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.444209,43.604652]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tournai-Antoing-Brunehaut",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-TournaiAntoingBrunehaut-2219798654807936/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[3.4513915,50.5672729]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tower Hamlets",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Tower-Hamlets-301099797259001/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.0293396,51.5202607]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Tring",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/2338668176413876/?ref=group_header|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.655879,51.796078]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Trondheim",
+         "facebook":"[[https://www.facebook.com/groups/Klimaopproret|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[10.3950528,63.4305149]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Turkey",
+         "website":"[[|Website]]"
+         ,
+         "twitter":"[[https://twitter.com/yokolus_isyani|Twitter]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Turkey-2331443233850721|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/yokolusisyani|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[28.9783589,41.0082376]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Twin Cities",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://facebook.com/ExtinctionRebellionUS/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-93.2009998,44.9374831]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"United Kingdom",
+         "twitter":"[[https://twitter.com/XRebellionUK|Twitter]]"
+         ,
+         "website":"[[https://rebellion.earth|Website]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"United States",
+         "website":"[[https://extinctionrebellion.us/|Website]]"
+         
+     }
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"University Of Glasgow",
+         "facebook":"[[https://www.facebook.com/groups/335104593984585/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-4.2954979,55.8754117]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"University of Warwick",
+         "facebook":"[[https://www.facebook.com/groups/1379646288843842/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.584927,52.282316]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Uppsala",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionsverige/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[17.6389267,59.8585638]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"US",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionUS/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-95.712891,37.09024]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Utrecht",
+         "facebook":"[[https://www.facebook.com/xrutrecht/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.1214201,52.0907374]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Uva Province"
+     },
+     "geometry": {"type":"Point","coordinates":[80.9335329,6.8745475]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Vadodara",
+         "email":"[[|Email]]"
+         ,
+         "instagram":"[[https://www.instagram.com/wonkyworks/|Instagram]]"
+         ,
+         "facebook":"[[https://www.facebook.com/wonkyworks/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/wonkyworks|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[73.1812187,22.3071588]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Valais",
+         "facebook":"[[https://www.facebook.com/exsvc/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[7.5449226,46.1904614]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Valencia",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/extinctionrebellionvalencia/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/XRValencia1?s=09|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.3762881,39.4699075]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Vancouver Island",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Vancouver-Island-2066513066705137/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-123.3656444,48.4284207]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Vancouver",
+         "facebook":"[[https://www.facebook.com/xrvanbc/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-123.1207375,49.2827291]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Värmland",
+         "facebook":"[[https://www.facebook.com/groups/604774533296312/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[13.5172373,59.3932709]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Vermont",
+         "facebook":"[[https://www.facebook.com/xrebellionvt/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-72.7098752,44.4020637]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Viroqua",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-90.8887413,43.5569174]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Visby",
+         "email":"[[|Email]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[18.29484,57.6348]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Vsa",
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-Vsa-334229940573572/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[21.6164564,63.095089]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wageningen",
+         "facebook":"[[https://www.facebook.com/XRWAGENINGEN/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[5.6653948,51.9691868]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Waihi",
+         "facebook":"[[https://www.facebook.com/groups/313896462768419/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[175.8406072,-37.3912594]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wairarapa",
+         "facebook":"[[https://www.facebook.com/groups/302486380465204/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[175.6573375,-40.9517632]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wales",
+         "facebook":"[[https://www.facebook.com/WalesXR/?ref=br_rs|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.78371170000003,52.1306607]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Walthamstow",
+         "facebook":"[[https://www.facebook.com/groups/803415130006520/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.0117625,51.5886383]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wandsworth",
+         "email":"[[|Email]]"
+         ,
+         "twitter":"[[https://twitter.com/XRWandsworth|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.18804,51.4456564]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Warrington",
+         "facebook":"[[https://www.facebook.com/xrwarrington|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.5969501,53.3900441]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Warsaw",
+         "facebook":"[[https://www.facebook.com/XRPolska/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[21.0122287,52.2296756]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Washington DC",
+         "facebook":"[[https://www.facebook.com/ExtinctionRebellionDC/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebelliondc/|Instagram]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebeldc?lang=en|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-77.0368707,38.9071923]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Waveney East",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/431982794280190/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/east_xr|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[1.1103819,52.3726941]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wells",
+         "facebook":"[[https://www.facebook.com/groups/290056475050224/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.64459790000001,51.209347]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wenlock Edge Area",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinctionrebelliontheedge/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.5592959,52.5971339]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"West Africa",
+         "facebook":"[[https://www.facebook.com/groups/830680000609424/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.4604145,13.531665]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"West Cornwall",
+         "facebook":"[[https://www.facebook.com/XRinPenwith/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-5.274996,50.101593]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"West Cumbria",
+         "facebook":"[[https://www.facebook.com/extinctionrebellionwestcumbria/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.542752,54.643569]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"West Midlands",
+         "facebook":"[[https://www.facebook.com/groups/2367096016651351/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.890401,52.486243]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Western Australia",
+         "facebook":"[[https://www.facebook.com/ausrebellionwa|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[115.8604572,-31.9505269]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Western Massachusetts",
+         "facebook":"[[https://m.facebook.com/ExtinctionRebellionUS/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-72.7010849,42.1103814]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Weston-super-Mare"
+     },
+     "geometry": {"type":"Point","coordinates":[-2.977255,51.347405]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wigan",
+         "facebook":"[[https://www.facebook.com/groups/522478194824102/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-2.6341629,53.5457363]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wimborne"
+     },
+     "geometry": {"type":"Point","coordinates":[-1.9830004,50.8004646]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Winchester",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/groups/419138561984159/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.310142,51.059771]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Winnipeg"
+     },
+     "geometry": {"type":"Point","coordinates":[-92.30211,37.6044878]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wirral",
+         "facebook":"[[https://www.facebook.com/XRWirral/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-3.0689368,53.389051]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wolfville",
+         "facebook":"[[https://www.facebook.com/groups/372059273549942/?ref=pages_profile_groups_tab&source_id=663791624017529|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-64.3598354,45.0917598]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Wrocław",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/xrwroclaw/|Facebook]]"
+         ,
+         "instagram":"[[https://www.instagram.com/extinctionrebellionpolska/|Instagram]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[17.0385376,51.1078852]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"York",
+         "facebook":"[[https://facebook.com/groups/292534094806064?ref=content_filter|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-1.0802851,53.9593429]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"ZA",
+         "facebook":"[[https://www.facebook.com/groups/274846873167157/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/xrebellionza|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[23.9821363,-29.264499]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Zaragoza",
+         "email":"[[|Email]]"
+         ,
+         "facebook":"[[https://www.facebook.com/Extinction-Rebellion-XR-Zaragoza-2272877489628505/|Facebook]]"
+         ,
+         "twitter":"[[https://twitter.com/RebellionZgz|Twitter]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[-0.8890853,41.6488226]} 
+    },
+
+    {"type":"Feature",
+     "properties": {
+         "name":"Zürich",
+         "facebook":"[[https://www.facebook.com/xrzurich/|Facebook]]"
+         
+     },
+     "geometry": {"type":"Point","coordinates":[8.541694,47.3768866]} 
+    }
+]}
