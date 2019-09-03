@@ -43,7 +43,7 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
         <script language="javascript" type="text/javascript">
                 alert('Thanks, we\'ll contact you soon.');
-                window.location = 'https://rebellion.global';
+                window.location = 'http://localhost:4000';
         </script>
 <?php
 }
