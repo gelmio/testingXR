@@ -10,7 +10,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "github-pages", group: :jekyll_plugins
 
 gem "mini_magick" # if plugin thumbnail is needed
 gem "htmlentities"
