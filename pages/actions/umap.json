@@ -1,0 +1,4 @@
+---
+permalink: /actions.json
+---
+{% if site.categories.actions %}{{ site.categories.actions | map: "geoloc" | jsonify }}{% endif %}

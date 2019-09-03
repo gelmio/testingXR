@@ -1,0 +1,39 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+
+// Width of the content area
+
+// Import partials
+@import "xr";
+@import "nav";
+@import "home";
+@import "post";
+@import "pages";
+@import "branches";
+@import "atom-reader";
+
+{% if site.data.colors.main-menu-top-background %}
+{% assign color = site.data.colors.main-menu-fixed-background %}
+{% else %}
+{% assign color = "green-moss" %}
+{% endif %}
+
+.navbar-custom.affix,
+.navbar-custom.sps--blw {
+  background-color: $color-xr-{{ color }};
+}
+
+{% if site.data.colors.main-menu-fixed-background %}
+{% assign color = site.data.colors.main-menu-top-background %}
+{% else %}
+{% assign color = "green-moss" %}
+{% endif %}
+
+.navbar-custom.affix-top,
+.navbar-custom.sps--abv {
+  background-color: $color-xr-{{ color }};
+}

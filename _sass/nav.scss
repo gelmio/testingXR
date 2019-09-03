@@ -1,0 +1,371 @@
+// Custom Navigation Bar
+
+.navbar-custom {
+  border-color: transparent;
+  padding: 0;
+  .navbar-brand {
+    color: $theme-primary;
+    @include script-font;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: $color-xr-pink2;
+    }
+    svg {
+      height: 60px;
+      @include transition-all;
+      path {
+        fill: white;
+        @include transition-all;
+      }
+    }
+  }
+  .navbar-collapse {
+    border-color: fade-out(white, .02);
+  }
+  .navbar-toggler {
+    background-color: $theme-primary;
+    border-color: $theme-primary;
+    @include heading-font;
+    color: white;
+    font-size: 12px;
+    &:hover,
+    &:focus {
+      background-color: $theme-primary;
+    }
+  }
+  .nav {
+    li {
+      >a {
+        @include heading-font;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: white;
+        font-size: 1em;
+        padding: 0.45em .25em .25em .25em;
+        border-bottom: 5px solid transparent;
+        height: 100%;
+        &:hover,
+        &:focus {
+          border-bottom: 5px solid #000000;
+        }
+      }
+      .xr-nav-dropdown-toggle:after {
+      }
+      .dropdown-menu {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        text-align: center;
+        a.dropdown-item {
+          @include heading-font;
+          font-weight: normal;
+          letter-spacing: 1px;
+          color: $gray-darker;
+          font-size: 14px;
+          padding: 10px;
+          text-align: center;
+          &:hover,
+          &:focus {
+            color: white;
+            background-color: darken($theme-primary, 10%);
+            // color: $theme-primary;
+            // outline: none;
+          }
+        }
+      }
+    }
+  }
+  .navbar-nav>.active>a {
+    border-radius: 0;
+    border-bottom: 5px solid #000000;
+  }
+  .navbar-nav>.active>a:hover,
+  .navbar-nav>.active>a:focus {
+    border-bottom: 5px solid #000000;
+  }
+}
+
+@media(min-width:768px) {
+  .navbar-custom {
+    @include transition-all;
+    border: none;
+    .navbar-brand {
+      font-size: 1.5625em;
+      @include transition-all;
+    }
+    .navbar-nav>.active>a {
+      border-radius: 0px;
+    }
+    .dropdown-menu {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      text-align: left;
+      a.dropdown-item {
+        @include heading-font;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 14px;
+        padding: 10px;
+        text-align: left;
+      }
+    }
+    .nav {
+      li {
+        >a {
+          @include heading-font;
+          letter-spacing: 1px;
+          font-size: 1.5625em;
+          &:hover,
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Navbar Change on Scroll
+
+@media(min-width:768px) {
+  .navbar-custom.sps--blw,
+  .navbar-custom.sps--abv {
+    .nav {
+      li {
+        >a {
+          @include heading-font;
+          letter-spacing: 1px;
+          color: white;
+          font-size: 1.5625em;
+          padding-right: .6rem;
+          padding-left: .6rem;
+          &:hover,
+          &:focus {
+            border-bottom: 5px solid #000000;
+          }
+          &.nav-icon svg {
+            width: 34px;
+            height: 34px;
+            circle, path {
+              @include transition-color;
+              fill: white;
+              width: 34px;
+              height: 34px;
+            }
+          }
+        }
+        >a.small {
+          padding: 0.35em .25em .25em .25em
+        }
+        .xr-nav-dropdown-toggle:after {
+        }
+        .dropdown-menu {
+          border: none;
+          border-radius: 0;
+          padding: 0;
+          text-align: left;
+          a.dropdown-item {
+            @include heading-font;
+            font-weight: normal;
+            letter-spacing: 1px;
+            color: $gray-darker;;
+            font-size: 14px;
+            padding: 10px;
+            text-align: left;
+            &:hover,
+            &:focus {
+              color: white;
+              background-color: darken($theme-primary, 10%);
+              // color: $theme-primary;
+              // outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-custom.affix,
+  .navbar-custom.sps--blw {
+    background-color: $gray-darker;
+    .navbar-brand {
+      padding: .4em;
+      font-size: 1.5em;
+    }
+    .navbar-nav>.active>a {
+      border-radius: 0;
+      border-bottom: 5px solid white;
+      color: white;
+    }
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+      border-bottom: 5px solid white;
+      color: white;
+    }
+    .nav {
+      li {
+        >a {
+          color: white;
+          &:hover,
+          &:focus {
+            border-bottom: 5px solid white;
+          }
+          &.nav-icon svg {
+            circle, path {
+              @include transition-color;
+              fill: white;
+            }
+          }
+        }
+        div.dropdown-menu {
+          a.dropdown-item {
+            color: $gray-darker;;
+            &:hover,
+            &:focus {
+              color: white;
+              background-color: darken($theme-primary, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-custom.affix-top,
+  .navbar-custom.sps--abv {
+    background-color: $color-xr-green-may;
+    .navbar-brand {
+      // margin-top: 0px;
+      // margin-bottom: -10px;
+      padding: .4em;
+      svg{
+        height: 60px;
+        &:hover path {
+          fill: $color-xr-white;
+        }
+        path {
+          fill: $gray-darker;
+          border: 1px solid red;
+          @include transition-all;
+        }
+      }
+    }
+    .navbar-nav>.active>a {
+      border-radius: 0;
+      border-bottom: 5px solid #000000;
+    }
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+      border-bottom: 5px solid #000000;
+    }
+    .nav {
+      li {
+        >a {
+          color: white;
+          &:hover,
+          &:focus {
+            border-bottom: 5px solid #000000;
+          }
+          &.nav-icon svg {
+            circle, path {
+              @include transition-color;
+              fill: black;
+            }
+          }
+        }
+        .dropdown-menu {
+          a.dropdown-item {
+            color: $gray-darker;;
+            &:hover,
+            &:focus {
+              color: white;
+              background-color: darken($theme-primary, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#main-nav ul.nav li.dropdown:hover > div.dropdown-menu {
+  display: block;
+}
+
+#main-nav .dropdown-menu {
+  margin-top: 0px;
+}
+
+#main-nav {
+  ul.social-buttons {
+    @include media-query(1200px) {
+      display: none;
+    }
+    margin-bottom: 0;
+    li {
+      padding: 0;
+      margin: 0;
+      a {
+        display: block;
+        background-color: transparent;
+        padding: 0.65em 0.5rem;
+        line-height: 35px;
+        border-radius: 0;
+        color: white;
+        outline: none;
+        @include transition-none;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: transparent;
+          border: none;
+          border-bottom: 5px solid #000000;
+          @include transition-color;
+          circle, path {
+            @include transition-color;
+            fill: white;
+          }
+        }
+        svg {
+          @include transition-color;
+          width: 35px;
+          height: 35px;
+          circle, path {
+            @include transition-color;
+            fill: $gray-darker;
+          }
+        }
+      }
+    }
+  }
+  &.sps--blw {
+    ul.social-buttons li {
+      a {
+        background-color: transparent;
+        color: white;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: transparent;
+          border: none;
+          border-bottom: 5px solid white;
+          @include transition-color;
+          circle, path {
+            @include transition-color;
+            fill: $color-xr-pink2;
+          }
+        }
+        svg {
+          @include transition-color;
+          circle, path {
+            @include transition-color;
+            fill: white;
+          }
+        }
+      }
+    }
+  }
+}

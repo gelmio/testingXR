@@ -1,0 +1,75 @@
+<!-- Home events -->
+<section class="home-events pt-5 pb-0 bg-light-gray border-bottom" id="home-events">
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-lg-12 text-center">
+                <h2>{{ site.data.locales['Events'] }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% if site.categories.events %}
+            {% assign events = (site.categories.events | sort: 'event_date_start') %}
+            {% assign events = (events | reverse) %}
+            {% assign events = (events | sort_natural: 'home_page_order') %}
+            {% for post in events limit:12 %}
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 xr-color-box mb-5">
+
+                <div class="card py-md-0 px-md-0 border-0 rounded-0">
+
+                    {% if post.image %}
+                    {% capture post_image %}{{ post.image }}{% endcapture %}
+                    {% endif %}
+                    {% if post_image %}
+                    <img src="{{ post_image }}" class="img-fluid mx-0 card-img-top rounded-0" />
+                    {% endif %}
+                    <div class="card-body">
+                        <h3 class="event-title card-title">
+                            {{ post.title }}
+                        </h3>
+                        <div class="card-date">
+                            {% if post.event_date_start %}
+                            {% if post.event_date_start %}
+                            <div class="row">
+                                <div class="event-date-start col-6" itemprop="startDate" content="{{ post.event_date_start }}">
+                                    {% if post.event_date_end %}<strong>{{ site.data.locales['From'] }}</strong><br/> {% endif %} {% include date_long.html post_date=post.event_date_start %}
+                                </div>
+                                {% if post.event_date_end %}
+                                <div class="event-date-end col-6" itemprop="endDate" content="{{ post.event_date_end }}">
+                                    <strong>{{ site.data.locales['Until'] }}</strong><br/> {% include date_long.html post_date=post.event_date_end %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% else %}
+                            {% include date_long.html post_date=post.event_date_start %}
+                            {% endif %}
+                            {% endif %}
+                        </div>
+
+                        {% if post.event_loc %}
+                        <div class="card-venue">
+                            <span class="badge badge-secondary">
+                                {{ post.event_loc }}
+                            </span>
+                        </div>
+                        {% endif %}
+
+                        {% if post.excerpt %}
+                        <div class="card-excerpt">
+                            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        </div>
+                        {% endif %}
+
+                        <div class="text-center">
+                            <a class="btn btn-secondary stretched-link align-self-center" href="{{ post.url | prepend: site.baseurl  }}" class="event-link">
+                                {{ site.data.locales['Find out more'] }}
+                            </a>
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+        {% endfor %} <!-- endfor post in category -->
+        {% endif %}
+  </div></div>
+</section>

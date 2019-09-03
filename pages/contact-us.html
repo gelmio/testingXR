@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /contact-us/
+---
+<div style="background-image: url(../../assets/img/contact-us/banner.jpg">
+    <h1 class="page-heading-light">Contact Us</h1>
+</div>
+
+<section id="contact-the-rebellion" class="pt-5 pb-2 bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="{{ site.url }}/php/contact.php" method="post">
+                    <div class="form-group">
+                        <input name="cf_name" placeholder="{{ site.data.locales['Name/Alias'] }}..." type="text" class="form-control"><br>
+                        <input name="cf_email" placeholder="{{ site.data.locales['Email'] }}*..." type="text" class="form-control"><br>
+                        <input name="cf_region" placeholder="{{ site.data.locales['Region/Country'] }}..." type="text" class="form-control"><br>
+                        <textarea name="cf_message" rows="6" cols="82" placeholder="{{ site.data.locales['Message'] }}" class="form-control"></textarea><br>
+                    </div>
+                    <div class="mb-3"><font size="3">{{ site.data.locales['contact-form-message'] }}</font></div>
+                    <div class="form-group">
+                        <button type="submit" class="btn o-button-green">{{ site.data.locales['Send message'] }}</button>
+                    </div>
+                </form>
+                <center><img src="../../assets/img/wood-blocks/orchid-320w.png"></center>
+            </div>
+        </div>
+    </div>
+</section>

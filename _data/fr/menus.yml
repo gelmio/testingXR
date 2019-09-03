@@ -1,0 +1,22 @@
+main:
+  - title: Rejoignez-nous
+    url: /branches/
+  - title: Espace rebelles
+    url: https://organise.earth
+  - title: Contact nous
+    url: /contact-us/
+terms:
+  - title: Confidentialité
+    url: /privacy-policy/
+the-truth:
+  - title: L'urgence
+    url: /the-emergency/
+  - title: Qui nous sommes
+    url: /about-us/
+more:
+  - title: Actualités
+    url: /news/xr-news/
+  - title: Presse
+    url: /press/
+  - title: Contactez-nous
+    url: /contact-us/

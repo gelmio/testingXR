@@ -1,0 +1,33 @@
+main:
+  - title: 加入我们 
+    url: /branches/
+  - title: 反叛分子的地区
+    url: https://organise.earth
+  - title: 联系我们
+    url: /contact-us/
+social:
+  - icon: mastodon
+    url: 'https://social.rebellion.global/'
+  - icon: twitter
+    url: 'https://twitter.com/ExtinctionR/'
+  - icon: facebook
+    url: 'https://www.facebook.com/ExtinctionRebellion/'
+  - icon: instagram
+    url: 'https://www.instagram.com/extinctionrebellion/'
+  - icon: youtube
+    url: 'https://www.youtube.com/channel/UCYThdLKE6TDwBJh-qDC6ICA/'
+terms:
+  - title: 隐私政策
+    url: /privacy-policy/
+the-truth:
+  - title: 紧急情况
+    url: /the-emergency/
+  - title: 关于我们
+    url: /about-us/
+more:
+  - title: 新闻
+    url: /news/xr-news/
+  - title: Press
+    url: /press/
+  - title: 联系我们
+    url: /contact-us/

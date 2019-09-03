@@ -1,0 +1,67 @@
+<ul class="list-inline social-buttons">
+
+    {% if site.mastodon_username %}
+    <li class="list-inline-item">
+        <a href="https://{{ site.mastodon_instance }}/@{{ site.mastodon_username }}" title="{{ site.mastodon_username }} sur Mastodon">
+            <span class="icon icon--mastodon">{% include icons/mastodon.svg %}</span>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if site.twitter_username %}
+    <li class="list-inline-item">
+        <a href="https://twitter.com/{{ site.twitter_username }}" title="{{ site.twitter_username }} sur Twitter">
+            <span class="icon icon--twitter">{% include icons/twitter.svg %}</span>
+        </a>
+
+    </li>
+    {% endif %}
+
+    {% if site.diaspora_username %}
+    <li class="list-inline-item">
+        <a href="https://{{ site.diaspora_pod }}/u/{{ site.diaspora_username }}" title="{{ site.diaspora_username }} sur Diaspora">
+            <span class="icon icon--diaspora">{% include icons/diaspora.svg %}</span>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if site.fb_username %}
+    <li class="list-inline-item">
+        <a href="https://facebook.com/{{ site.fb_username }}" title="{{ site.fb_username }} sur Facebook">
+            <span class="icon icon--facebook">{% include icons/facebook.svg %}</span>
+        </a>
+
+    </li>
+    {% endif %}
+
+    {% if site.instagram_username %}
+    <li class="list-inline-item">
+        <a href="https://www.instagram.com/{{ site.instagram_username }}" title="{{ site.instagram_username }} sur Instagram">
+            <span class="icon icon--instagram">{% include icons/instagram.svg %}</span>
+        </a>
+
+    </li>
+    {% endif %}
+
+    {% if site.peertube_username %}
+    <li class="list-inline-item">
+        <a href="https://{{ site.peertube_instance }}/{{ site.peertube_channel }}" title="{{ site.peertube_username }} sur Peertube">
+            <span class="icon icon--peertube">{% include icons/peertube.svg %}</span>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if site.youtube_username %}
+    <li class="list-inline-item">
+        <a href="{{ site.youtube_url }}" title="{{ site.youtube_username }} sur Youtube">
+            <span class="icon icon--youtube">{% include icons/youtube.svg %}</span>
+        </a>
+    </li>
+    {% endif %}
+
+    <li class="list-inline-item">
+        <a href="{{ site.baseurl }}/feed.xml" title="Flux RSS">
+            <span class="icon icon--instagram">{% include icons/rss.svg %}</span>
+        </a>
+    </li>
+</ul>

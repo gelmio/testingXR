@@ -1,0 +1,138 @@
+{% assign countrycount = 0 %}
+{% for branch in site.branches %}
+{% if branch.name == branch.country %}
+{% assign countrycount = countrycount | plus: 1 %}
+{% endif %}
+{% endfor %}
+<div id="heartbeat"
+     style='height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; background-color: #43a047;'>
+    <div>
+        <h1 class="fade-in keep">{{countrycount}}</h1>
+        <div class="animate">
+            <h1>Countries</h1>
+        </div>
+        <!-- French -->
+        <div class="animate">
+            <h1>Pays</h1>
+        </div>
+        <div class="animate">
+            <h1>Países</h1>
+        </div>
+        <!-- chinese -->
+        <div class="animate">
+            <h1 class="heavy">国家</h1>
+        </div>
+        <!-- hindi -->
+        <div class="animate">
+            <h1 class="heavy">देशों</h1>
+        </div>
+        <!-- arabic -->
+        <div class="animate">
+            <h1 class="heavy">بلدان</h1>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="fade-in keep">{{site.branches.size}}</h1>
+        <div class="animate">
+            <h1>Branches</h1>
+        </div>
+        <!-- Spanish -->
+        <div class="animate">
+            <h1>Ramas</h1>
+        </div>
+        <!-- chinese -->
+        <div class="animate">
+            <h1 class="heavy">分行</h1>
+        </div>
+        <!-- hindi -->
+        <div class="animate">
+            <h1 class="heavy">शाखाओं</h1>
+        </div>
+        <!-- arabic -->
+        <div class="animate">
+            <h1 class="heavy">الفروع</h1>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="fade-in keep">1</h1>
+        <div class="animate">
+            <h1>Movement</h1>
+        </div>
+        <!-- French -->
+        <div class="animate">
+            <h1>mouvement</h1>
+        </div>
+        <!-- Spanish -->
+        <div class="animate">
+            <h1>movimiento</h1>
+        </div>
+        <!-- chinese -->
+        <div class="animate">
+            <h1 class="heavy">运动</h1>
+        </div>
+        <!-- hindi -->
+        <div class="animate">
+            <h1 class="heavy">आंदोलन</h1>
+        </div>
+        <!-- arabic -->
+        <div class="animate">
+            <h1 class="heavy">حركة</h1>
+        </div>
+    </div>
+    <div class="animate-fast">
+        <img src="/assets/img/superbutterfly.png" class="animate animate-fast"
+             style="width: 70vw; max-height: 70vw; max-width: 70vh;">
+    </div>
+    <div class="animate-fast">
+        <img src="/assets/img/xr-shock-face.png" class="animate animate-fast"
+             style="width: 70vw; max-height: 70vw; max-width: 70vh;">
+    </div>
+    <div class="animate-fast">
+        <img src="/assets/img/superbird.png" class="animate animate-fast"
+             style="width: 70vw; max-height: 70vw; max-width: 70vh;">
+    </div>
+    <div class="keep">
+        <img src="/assets/img/xr.svg" class="fade-in-slow keep" style="width: 75vw; max-height: 75vh; max-width: 75vh;">
+    </div>
+    <div class="keep" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <a href="{{site.url}}/events/2019/07/30/rebel-without-borders/">
+            <h1 class="fade-in-slow keep" style="font-size: 9vw !important; color: #fff">International Rebellion</h1>
+            <h1 class="fade-in-slow keep" style="font-size: 9vw !important; color: #fff">October</h1>
+            <h1 class="fade-in-slow keep" style="font-size: 9vw !important; color: #fff">2019</h1>
+        </a>
+    </div>
+</div>
+<script>
+ const interval = 1500;
+ const intervalFast = 1000;
+ const heartbeatElement = document.querySelector('#heartbeat');
+ const childElements = heartbeatElement.children;
+ (function animate(list) {
+     let [first, ...restOfList] = list
+     let childrenToAnimate = [...first.children].filter(element => !element.classList.contains('keep'))
+     let intervalToUse = first.classList.contains('animate-fast') ? intervalFast : interval
+
+     first.classList.add("shown")
+     setTimeout(() => {
+         if(!first.classList.contains('keep')) {
+             first.classList.remove("shown")
+         }
+     }, intervalToUse * childrenToAnimate.length || intervalToUse)
+     if(childrenToAnimate && childrenToAnimate.length > 0) {
+         animate(childrenToAnimate)
+         if(restOfList && restOfList.length > 0) {
+             setTimeout(() => {
+                 animate([...restOfList])
+             }, intervalToUse * childrenToAnimate.length)
+         }
+     } else {
+         if(restOfList && restOfList.length > 0) {
+             setTimeout(() => {
+                 animate([...restOfList])
+             }, intervalToUse)
+         }
+     }
+ })([...childElements])
+</script>

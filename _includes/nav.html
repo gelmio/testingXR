@@ -1,0 +1,33 @@
+<!-- Navigation -->
+<nav id="main-nav" class="navbar navbar-default navbar-custom navbar-expand-lg fixed-top sps sps--abv" data-sps-offset="100">
+    <div class="container align-items-stretch">
+	<a class="navbar-brand" href="{{ site.baseurl }}/index.html">{% include xr-logo.svg %}</a>
+	<button id="main-navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+	</button>
+
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <ul class="nav navbar-nav ml-auto">
+		<li class="hidden">
+		    <a href="#page-top"></a>
+		</li>
+		{% for item in site.data.menus.main %}
+		<li class="nav-item {% if page.url == item.url or (page.menu == item.childs and page.menu) %}active{% endif %}">
+		    <a class="nav-link {{ item.class }}{% if page.url == item.url %} link-active{% endif %}" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+                    {% if item.childs %}
+                    <ul class="main-navbar-childs">
+                        {% for child in site.data.menus[item.childs] %}
+                        <li class="{% if page.url == child.url %}active{% endif %}">
+                            <a class="{{ child.class }}" href="{{ child.url | prepend: site.baseurl }}" {% if child.target %}target="{{ child.target }}"{% endif %}>
+                                {{ child.title }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+		</li>
+		{% endfor %}
+	    </ul>
+	</div>
+    </div>
+</nav>

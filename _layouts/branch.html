@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<div class="bg-light-gray">
+    <header class="branch-heading">
+        <h1 class="" itemprop="name headline">XR {{ page.name }}</h1>
+        {% include social-buttons-branch.html post=page %}
+        {%- if jekyll.environment == "development" -%}
+        {%- assign my_array = page.url | split: "/" -%}
+        {%- capture filename %}{{ my_array.last }}{% endcapture %}
+        <div class="top-edit-links">
+            <div class="btn-group">
+                <a href="https://dev.rebellion.global/admin/#/collections/branches/entries/{{ filename }}" class="o-button-pink btn-sm position-relative" target="_blank">
+                    Edit
+                </a>
+                <a href="https://code.organise.earth/xr-global/jekyll/tree/staging/_branches/{{ filename }}.md" class="o-button-orange btn-sm position-relative" target="_blank">
+                    Gitlab
+                </a>
+            </div>
+        </div>
+        {%- endif -%}
+    </header>
+    {% if page.name == page.country %}
+    <section id="branches-list" class="pt-3 pb-3 bg-light-gray">
+        <div class="container">
+            <div class="row">
+                {%- if site.branches -%}
+                    {%- for post in site.branches -%}
+                        {%- capture bg -%}bg-{% cycle 'blue-baby', 'yellow', 'green-moss', 'pink', 'lemon', 'orange', 'green-may', 'blue-lazuli', 'purple', 'red' %}{%- endcapture -%}
+                        {%- assign my_array = post.url | split: "/" -%}
+                        {%- capture filename %}{{ my_array.last }}{% endcapture %}
+                        {%- if post.country == page.name -%}
+                            {%- if post.name != page.name -%}
+                                {%- include branch-card.html post=post bg=bg country_code=country_code filename=filename -%}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+    <section>
+        <div class="container">
+            {{ content }}
+            {%- if jekyll.environment == "development" -%}
+            <div class="row text-right d-flex justify-content-end">
+                <div class="btn-group">
+                    <a href="https://dev.rebellion.global/admin/#/collections/branches/entries/{{ filename }}" class="o-button-pink btn-sm position-relative" target="_blank">
+                        Edit
+                    </a>
+                    <a href="https://code.organise.earth/xr-global/jekyll/tree/staging/_branches/{{ filename }}.md" class="o-button-orange btn-sm position-relative" target="_blank">
+                        Gitlab
+                    </a>
+                </div>
+            </div>
+            {%- endif -%}
+        </div>
+    </section>
+</div>

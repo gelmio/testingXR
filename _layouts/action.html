@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div class="container post-container">
+
+  <article class="action" itemscope itemtype="http://schema.org/Action">
+
+    <header class="post-header">
+
+      <div class="categories">
+
+        <!-- <p>
+             <a href="{{ page.previous.url }}" class="btn">
+             {{ page.previous.title }}
+             </a>
+           -
+             <a href="{{ page.next.url }}" class="btn">
+             {{ page.next.title }}
+             </a>
+             </p> -->
+
+        {% for categorie in page.categories %}
+
+        <a href="{{ site.baseurl }}/{{ categorie | slugify: "latin" }}">
+          <span class="post-categorie">
+            {% if site.data.categories[categorie] %}
+            {{ site.data.categories[categorie] }}
+            {% else %}
+            {{ categorie }}
+            {% endif %}
+          </span>
+        </a>
+
+        {% if forloop.last == false %}
+        &gt;
+        {% endif %}
+
+        {% endfor %}
+      </div>
+
+      <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+
+      <!-- {% if page.image %}
+           <img src="{{ page.image }}" class="img-fluid img mx-auto" />
+           {% endif %}
+         -->
+      <div class="action-date" itemprop="startDate" content="{{ page.action_date }}">
+        {% if page.action_date %}
+        <!-- <span class="icon-calendar">{% include icon-calendar.svg %}</span> -->
+        {% include date_long.html post_date=page.action_date %}
+        {% endif %}
+      </div>
+
+      <div class="action-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+        {% capture action_url %}
+        {% if page.action_loc_link %}
+        {{ page.action_loc_link }}
+        {% else %}
+        https://www.openstreetmap.org/search?query={{ page.action_loc_name }}, {{ page.action_loc_streetAddress }}, {{ page.action_loc_postalCode }}, {{ page.action_loc_addressLocality }}, {{ page.action_loc_addressRegion }}, {{ page.action_loc_country }}
+        {% endif %}
+        {% endcapture %}
+
+
+        <!-- <span class="icon-location">{% include icon-location.svg %}</span> -->
+        {% if page.action_loc %}
+        <span itemprop="name">{{ page.action_loc_name }}</span>
+        <span class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">{{ page.action_loc_streetAddress }}</span>
+          <span itemprop="postalCode">{{ page.action_loc_postalCode }}</span>
+          <span itemprop="addressLocality">{{ page.action_loc_addressLocality }}</span>{% if page.action_loc_addressRegion %},
+          <span itemprop="addressRegion">{{ page.action_loc_addressRegion }}</span>{% endif %}
+        </span>
+        <a href="{{ action_url | strip  }}" target="_blank">
+          {% include icon-location.svg %}
+        </a>
+        {% else %}
+        {% if page.action_loc_name %}
+        <span itemprop="name">{{ page.action_loc_name }}</span>{% endif %}
+        {% endif %}
+
+      </div>
+    </header>
+
+    <div class="post-content">
+
+      {{ content }}
+
+      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">Publié le {% include date_long.html post_date=page.date %}</time>{% if page.author %} par <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+        </div>
+
+    </article>
+
+</div>

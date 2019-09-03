@@ -1,0 +1,40 @@
+<ul class="list-inline social-buttons">
+    {%- assign links = include.post.links -%}
+
+    {%- if links.website -%}
+    <li class="list-inline-item"><a href="{{ links.website }}"><span class="icon icon--xr">{%- include icons/xr.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.diaspora -%}
+    <li class="list-inline-item"><a href="{{ links.diaspora }}"><span class="icon icon--diaspora">{%- include icons/diaspora.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.facebook -%}
+    <li class="list-inline-item"><a href="{{ links.facebook }}"><span class="icon icon--facebook">{%- include icons/facebook.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.mastodon -%}
+    <li class="list-inline-item"> <a href="{{ links.mastodon }}"><span class="icon icon--mastodon">{%- include icons/mastodon.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.twitter -%}
+    <li class="list-inline-item"><a href="{{ links.twitter }}"><span class="icon icon--twitter">{%- include icons/twitter.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.peertube -%}
+    <li class="list-inline-item"><a href="{{ links.peertube }}"><span class="icon icon--peertube">{%- include icons/peertube.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.youtube -%}
+    <li class="list-inline-item"><a href="{{ links.youtube }}"><span class="icon icon--youtube">{%- include icons/youtube.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.instagram -%}
+    <li class="list-inline-item"><a href="{{ links.instagram }}"><span class="icon icon--instagram">{%- include icons/instagram.svg -%}</span></a></li>
+    {%- endif -%}
+
+    {%- if links.rss -%}
+    <li class="list-inline-item"><a href="{{ links.rss }}"><span class="icon icon--rss">{%- include icons/rss.svg -%}</span><span class="icon icon--rss">{%- include icons/rss.svg -%}</span></a></li>
+    {%- endif -%}
+
+</ul>

@@ -1,0 +1,33 @@
+main:
+  - title: Join us
+    url: /branches/
+  - title: Rebel area
+    url: https://organise.earth
+  - title: Contact Us
+    url: /contact-us/
+social:
+  - icon: mastodon
+    url: 'https://social.rebellion.global/'
+  - icon: twitter
+    url: 'https://twitter.com/ExtinctionR/'
+  - icon: facebook
+    url: 'https://www.facebook.com/ExtinctionRebellion/'
+  - icon: instagram
+    url: 'https://www.instagram.com/extinctionrebellion/'
+  - icon: youtube
+    url: 'https://www.youtube.com/channel/UCYThdLKE6TDwBJh-qDC6ICA/'
+terms:
+  - title: Privacy Policy
+    url: /privacy-policy/
+the-truth:
+  - title: The Emergency
+    url: /the-emergency/
+  - title: About us
+    url: /about-us/
+more:
+  - title: News
+    url: /news/xr-news/
+  - title: Press
+    url: /press/
+  - title: Contact Us
+    url: /contact-us/

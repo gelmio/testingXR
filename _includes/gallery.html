@@ -1,0 +1,15 @@
+<div class="action-photo-grid">
+  <div class="row no-gutters photo-grid text-center" style="margin-bottom: 55px;">
+    {% for image in include.images %}
+    <!-- <div class="col-{{ include.col }} text-center"> -->
+    <!-- <div class="col-sm-3 col-md-2 col-lg-1 text-center"> -->
+    {% assign my_array = image.image | split: "/" %}
+    {% capture filename %}{{ my_array.last }}{% endcapture %}
+    <a href="{{ image.image }}" data-toggle="lightbox" data-gallery="{{ include.id }}-gallery"
+       data-footer="Photos&nbsp;: {{ filename }}">
+      <img src="{% thumbnail crop {{image.image}} {{include.size}} {{include.crop}} %}" class="img-fluid">
+    </a>
+    <!-- </div> -->
+    {% endfor %}
+  </div>
+</div>

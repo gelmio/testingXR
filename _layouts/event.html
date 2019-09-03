@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<div class="container post-container">
+
+    <article class="event" itemscope itemtype="http://schema.org/Event">
+
+        <header class="post-header">
+
+            <div class="categories">
+                {% for categorie in page.categories %}
+
+                <a href="{{ site.baseurl }}/{{ categorie | slugify: "latin" }}">
+                    <span class="post-categorie">
+                        {% if site.data.categories[categorie] %}
+                        {{ site.data.categories[categorie] }}
+                        {% else %}
+                        {{ categorie }}
+                        {% endif %}
+                    </span>
+                </a>
+
+                {% if forloop.last == false %}
+                &gt;
+                {% endif %}
+
+                {% endfor %}
+            </div>
+
+            <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+            {%- if page.image_big -%}
+            {%- capture post_image -%}{{ page.image_big }}{%- endcapture -%}
+            {%- else -%}
+            {%- capture post_image -%}{{ page.image }}{%- endcapture -%}
+            {%- endif -%}
+            {% if post_image %} <img src="{{ post_image }}" class="img-fluid mb-5" /> {% endif %}
+
+            {% capture event_date %}
+            {% include date_long.html post_date=page.event_date_start %}
+            {% endcapture %}
+
+            <div class="event-date" itemprop="startDate" content="{{ event_date | trim }}">
+                {% if page.event_date_start %}
+
+                {% if page.event_date_end %}
+                <div class="event-date-start" itemprop="startDate" content="{{ page.event_date_start }}"><strong>From:</strong> {% include date_long.html post_date=page.event_date_start %}</div>
+                <div class="event-date-end" itemprop="endDate" content="{{ page.event_date_end }}"><strong>Until:</strong> {% include date_long.html post_date=page.event_date_end %}</div>
+                {% else %}
+                {% include date_long.html post_date=page.event_date_start %}
+                {% endif %}
+
+                {% endif %}
+            </div>
+
+            <div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+              {% capture event_url %}
+              {% if page.event_loc_link %}
+              {{ page.event_loc_link }}
+              {% else %}
+              https://www.osm.org/search?query={{ page.event_loc_name }}, {{ page.event_loc_streetAddress }}, {{ page.event_loc_postalCode }}, {{ page.event_loc_addressLocality }}, {{ page.event_loc_addressRegion }}, {{ page.event_loc_country }}
+              {% endif %}
+              {% endcapture %}
+
+              {% if page.event_loc %}
+              <a href="{{ event_url | strip  }}" target="_blank">
+                <span itemprop="name">{{ page.event_loc_name }}</span>
+                <span class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">{{ page.event_loc_streetAddress }}</span>
+                  <span itemprop="postalCode">{{ page.event_loc_postalCode }}</span>
+                  <span itemprop="addressLocality">{{ page.event_loc_addressLocality }}</span>{% if page.event_loc_addressRegion %},
+                  <span itemprop="addressRegion">{{ page.event_loc_addressRegion }}</span>{% endif %}
+                </span>
+              </a>
+              {% else %}
+              {% if page.event_loc_name %}
+              <span itemprop="name">{{ page.event_loc_name }}</span>{% endif %}
+              {% endif %}
+            </div>
+        </header>
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.data.locales['Publication date'] }} {% include date_long.html post_date=page.date %}</time>{% if page.author %} {{ site.data.locales['Author'] }} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    </article>
+</div>

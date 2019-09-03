@@ -1,0 +1,59 @@
+<!-- Footer -->
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 text-left text-left">
+
+                <h5>{{ site.data.locales['The Truth']}}</h5>
+                <ul class="m-0 p-0 footer-menu mb-3">
+                    {% for link in site.data.menus.the-truth %}
+                    <li class="m-0 p-0">
+                        <a class="{{ link.class }}" href="{{ link.url | prepend: site.baseurl }}" {% if link.target %}target="{{ link.target }}"{% endif %}>
+                            {{ link.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <h5>{{ site.data.locales['More']}}</h5>
+                <ul class="m-0 p-0 footer-menu mb-3">
+                    {% for link in site.data.menus.more %}
+                    <li class="m-0 p-0">
+                        <a class="{{ link.class }}" href="{{ link.url | prepend: site.baseurl }}" {% if link.target %}target="{{ link.target }}"{% endif %}>
+                            {{ link.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col-md-2 text-left">
+                <h5>{{ site.data.locales['Terms']}}</h5>
+                <ul class="m-0 p-0 footer-menu mb-3">
+                    {% for link in site.data.menus.terms %}
+                    <li class="m-0 p-0">
+                        <a class="{{ link.class }}" href="{{ link.url | prepend: site.baseurl }}" {% if link.target %}target="{{ link.target }}"{% endif %}>
+                            {{ link.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-left">
+                <div class="mt-0 text-left">
+                    <h5>{{ site.data.locales['Copyright Info'] }}</h5>
+                    {{ site.data.locales['copyright-info-text'] }}
+                    </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                {% include footer-social-buttons.html %}
+                <div style="background: #000; padding: 30px; text-align: center; color: #fff">
+                    <h6>made with love and rage</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

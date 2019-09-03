@@ -1,0 +1,17 @@
+{% if page.menu %}
+<nav id="sub-nav-mobile" class="">
+    <div class="container text-right">
+        <div id="xr-sub-nav" class="">
+            <ul class=" text-center ">
+                {% for link in site.data[page.menu] %}
+                <li class="{% if page.url == link.link %}active{% endif %}">
+                    <a class="{{ link.class }}" href="{{ link.link | prepend: site.baseurl }}" {% if link.target %}target="{{ link.target }}"{% endif %}>
+                        {{ link.name }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
+{% endif %}

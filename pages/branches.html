@@ -1,0 +1,51 @@
+---
+layout: default
+permalink: /branches/
+---
+
+<!-- Branches Section -->
+
+<h1 class="page-heading bg-darkest-gray text-light-gray" style="background-image: url(/assets/img/branches/banner.jpg">
+    {{ site.data.locales['XR Branches'] }}
+</h1>
+
+<section id="branches-map" class="pt-5 pb-2 bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe width="100%" height="400px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/xr-international-map_324464?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=true&locateControl=false&measureControl=false&editinosmControl=false"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="branches-list" class="pt-3 pb-3 bg-light-gray">
+    <div class="container">
+        <div class="row form-group mb-4 no-gutters">
+            <div class="col-sm-12 text-center">
+                <input class="form-control form-control-lg text-center" type="text" id="branches-list-filter"
+                       name="branches-list-filter" placeholder="{{ site.data.locales['find your country'] }}"} />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {%- if site.branches -%}
+                {%- for post in site.branches -%}
+                    {%- capture bg -%}bg-{% cycle 'blue-baby', 'yellow', 'green-moss', 'pink', 'lemon', 'orange', 'green-may', 'blue-lazuli', 'purple', 'red' %}{%- endcapture -%}
+                    {%- assign my_array = post.url | split: "/" -%}
+                    {%- capture filename %}{{ my_array.last }}{% endcapture %}
+                    {%- assign country_name_capitalised = post.name | upcase -%}
+                    {%- assign country_code = site.data.country_codes.isocodes[country_name_capitalised] | downcase %}
+                    {%- if country_code.size > 0 -%}
+                        {%- include branch-card.html post=post bg=bg country_code=country_code filename=filename -%}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+    <br><br>
+    <center><img src="/assets/img/wood-blocks/tree-320w.png"></center>
+</section>

@@ -1,0 +1,123 @@
+article.page-center {
+  h2, h3, h4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  ul {
+    list-style: none;
+  }
+  ul, ol {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    // max-width: 940px;
+    text-align: center;
+    padding: 0;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  ol.big-numbers-list {
+    padding-left: 50px;
+  }
+  p {
+    text-align: center;
+  }
+  blockquote {
+    text-align: center;
+    border-top: 0px solid $gray-dark;
+    border-bottom: 1px solid darken($gray-lighter, 5%);
+    border-left: 0px solid $gray-dark;
+    border-right: 0px solid $gray-dark;
+    background-color: $gray-lighter;
+    padding: 0.5rem;
+    p {
+      margin-top:8px;
+      margin-bottom:8px;
+    }
+  }
+}
+
+article.page {
+  header.page-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    img {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+  .page-content {
+    padding-top: 3rem;
+  }
+}
+
+h1.page-heading {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 5vw;
+  @include media-query($on-laptop) {
+    font-size: 9vw;
+  }
+  text-shadow: 2px 2px 2px black;
+}
+
+h1.page-heading-light {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 5vw;
+  @include media-query($on-laptop) {
+    font-size: 9vw;
+  }
+  text-shadow: 2px 2px 2px black;
+  color: $gray-lighter;
+}
+
+.affiches-list {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    margin: 0;
+    height: auto;
+    list-style: none;
+    > li {
+    margin: 0 5px 0 0;
+    > img {
+      margin: 0;
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+      display: block;
+    }
+    }
+  }
+}
+
+.img-centered {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.anchor-position {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#note-1 {
+  padding-top: 6rem;
+  margin-bottom: -6rem;
+}
+#note-2 {
+  padding-top: 6rem;
+  margin-bottom: -6rem;
+}
+#note-3 {
+  padding-top: 6rem;
+  margin-bottom: -6rem;
+}

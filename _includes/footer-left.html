@@ -1,0 +1,9 @@
+<ul class="list-inline quicklinks">
+  {% for link in site.data.menus.footer-left %}
+  <li class="list-inline-item">
+    <a class="{{ link.class }}" href="{{ link.url | prepend: site.baseurl }}" {% if link.target %}target="{{ link.target }}"{% endif %}>
+      {{ link.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

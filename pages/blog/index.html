@@ -1,0 +1,61 @@
+---
+layout: default
+permalink: /blog/
+---
+
+<h1 class="page-heading">Blog</h1>
+
+<section id="blog" class="blog">
+    <div class="container">
+
+        <div class="row">
+            {% if site.categories.blog %}
+            {% for post in site.categories.blog %}
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 xr-color-box">
+
+                <div class="card py-md-0 px-md-0 border-0 rounded-0 bg-{% cycle 'blue-baby', 'green-moss', 'yellow', 'pink', 'lemon' %}">
+                    {% if post.image %}
+                    {% capture post_image %}{% dirname {{post.url}} %}/{{ post.image }}{% endcapture %}
+                    {% else %}
+                    {% if post.image_fullpath %}
+                    {% capture post_image %}{{ post.image_fullpath }}{% endcapture %}
+                    {% endif %}
+                    {% endif %}
+                    {% if post_image %}
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="event-link">
+                        <img src="{{ post_image }}" class="img-fluid mx-auto card-img-top rounded-0" />
+
+                    </a>
+                    {% endif %}
+
+                    <div class="card-body">
+                        <h3 class="event-title card-title">
+                            <a href="{{ post.url | prepend: site.baseurl  }}" class="event-link">
+                                {{ post.title }}
+                            </a>
+                        </h3>
+
+                        <div class="card-date">
+                            {% if post.date %}
+                            {% include date_long.html post_date=post.date %}{% endif %}
+                        </div>
+
+                        {% if post.excerpt %}
+                        <div class="card-excerpt">
+                            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        </div>
+                        {% endif %}
+
+                        <div class="card-button">
+                            <a class="o-button-black" href="{{ post.url | prepend: site.baseurl  }}" class="event-link">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %} <!-- endfor post in category -->
+            {% endif %}
+        </div>
+    </div>
+</section>

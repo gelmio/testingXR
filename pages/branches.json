@@ -1,0 +1,14 @@
+---
+permalink: "/branches.json"
+---
+{"type":"FeatureCollection","features": [
+{% for item in site.branches %}{% if item.name %}
+    {"type":"Feature",
+     "properties": {
+         "name":"{{item.name}}"{% if item.links %}{% for link in item.links %}{% if link[0] != "others" %},
+         "{{link[0]}}":"[[{{link[1]}}|{{link[0] | capitalize}}]]"
+         {% endif %}{% endfor %}{% endif %}
+     }{% if item.location %},
+     "geometry": {{item.location | replace: "'", '"'}} {% endif %}
+    }{% if forloop.last == false %},{% endif %}
+{% endif %}{% endfor %}]}

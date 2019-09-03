@@ -1,0 +1,36 @@
+<div data-id="{{ include.filename }}" class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 xr-color-box">
+    <div class="card py-md-0 px-md-0 border-0 {{ bg }} rounded-0">
+        <div class="card-body">
+            {%- if include.country_code.size > 0 -%}
+            <div class="flag-background" style="background: center / cover no-repeat url(/assets/img/flags/{{include.country_code}}.svg);">
+            </div>
+            {%- endif -%}
+            <h3 class="event-title card-title country-title">
+                <a href="{{ include.post.url | prepend: site.baseurl  }}" class="event-link {{ include.bg }}">
+                    {{ include.post.name }}
+                </a>
+            </h3>
+            {%- if include.post.branch_loc -%}
+            <div class="card-loc">
+                {{ include.post.branch_loc }}
+            </div>
+            {%- endif %}
+            <div class="card-links position-relative">
+                {%- include social-buttons-branch.html post=include.post -%}
+            </div>
+            <div class="card-button">
+                <a class="btn position-relative" href="{{ include.post.url | prepend: site.baseurl  }}">
+                    {{ site.data.locales['Read more'] }}
+                </a>
+                {%- if jekyll.environment == "development" -%}
+                <a href="https://dev.rebellion.global/admin/#/collections/branches/entries/{{ include.filename }}" class="btn position-relative" target="_blank">
+                    Edit
+                </a>
+                <a href="https://code.organise.earth/xr-global/jekyll/tree/staging/_branches/{{ include.filename }}.md" class="btn position-relative" target="_blank">
+                    Gitlab
+                </a>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>

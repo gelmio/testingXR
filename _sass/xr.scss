@@ -1,0 +1,711 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+// Fonts
+
+@font-face {
+  font-family:'FucXedLatin';
+  src: url('/assets/fonts/FucXedLatin/FUCXEDCAPSLatin-Regular.woff') format('woff'),
+  url('/assets/fonts/FucXedLatin/FUCXEDCAPSLatin-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Crimson Text';
+  src: url('/assets/fonts/Crimson/CrimsonText-Regular.woff') format('woff'),
+  url('/assets/fonts/Crimson/CrimsonText-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family:'Crimson Text';
+  src: url('/assets/fonts/Crimson/Crimson-Semibold.woff') format('woff'),
+  url('/assets/fonts/Crimson/Crimson-Semibold.otf') format('otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family:'Crimson Bold';
+  src: url('/assets/fonts/Crimson/CrimsonText-Bold.woff') format('woff'),
+  url('/assets/fonts/Crimson/CrimsonText-Bold.otf') format('otf');
+}
+
+
+// Global Components
+
+body {
+  overflow-x: hidden;
+  @include body-font;
+  font-size: 1em;
+}
+
+.text-muted {
+  color: $gray-light;
+}
+
+.text-primary {
+  color: $theme-primary;
+}
+
+ul, ol, p {
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
+p.large {
+  font-size: 1.35rem;
+}
+
+p.huge {
+  font-size: 2.25em;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+
+a {
+  color: $theme-primary;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: darken($theme-primary, 10%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include heading-font;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+@include media-query($on-laptop) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  h5 {
+    font-size: 1.2em;
+  }
+
+  h6 {
+    font-size: 1em;
+  }
+}
+
+.small-space {
+  font-size: 20%;
+  @include body-font;
+}
+
+.text-lowercase {
+  @include body-font;
+  font-family: 'Crimson Text', serif !important;
+
+}
+
+.green-fucxed {
+  @include heading-font;
+  font-weight: normal;
+  font-size: 25px;
+  color: $color-xr-green-may;
+}
+
+blockquote {
+  margin: 5px;
+  padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+  border-left: 3px solid $gray-lighter;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+.bg-black {
+  background-color: $gray-base !important;
+}
+
+.bg-light-gray {
+  background-color: $gray-lighter !important;
+}
+
+.bg-darkest-gray {
+  background-color: $gray-darker !important;
+}
+
+.bg-pink {
+  background-color: $color-xr-pink !important;
+}
+
+.bg-lemon {
+  background-color: $color-xr-lemon !important;
+}
+
+.bg-purple {
+  background-color: $color-xr-purple !important;
+}
+
+.bg-orange {
+  background-color: $color-xr-orange !important;
+}
+
+.bg-yellow {
+  background-color: $color-xr-yellow !important;
+}
+
+.bg-green-moss {
+  background-color: $color-xr-green-moss !important;
+}
+
+.bg-green-may {
+  background-color: $color-xr-green-may !important;
+}
+
+.bg-blue-baby {
+  background-color: $color-xr-blue-baby !important;
+}
+
+.bg-blue-lazuli {
+  background-color: $color-xr-blue-lazuli !important;
+}
+
+.bg-red {
+  background-color: $color-xr-red !important;
+}
+
+// text color
+
+.text-black {
+  color: $gray-base !important;
+}
+
+.text-light-gray {
+  color: $gray-lighter !important;
+}
+
+.text-darkest-gray {
+  color: $gray-darker !important;
+}
+
+.text-pink {
+  color: $color-xr-pink !important;
+}
+
+.text-lemon {
+  color: $color-xr-lemon !important;
+}
+
+.text-purple {
+  color: $color-xr-purple !important;
+}
+
+.text-orange {
+  color: $color-xr-orange !important;
+}
+
+.text-yellow {
+  color: $color-xr-yellow !important;
+}
+
+.text-green-moss {
+  color: $color-xr-green-moss !important;
+}
+
+.text-green-may {
+  color: $color-xr-green-may !important;
+}
+
+.text-blue-baby {
+  color: $color-xr-blue-baby !important;
+}
+
+.text-blue-lazuli {
+  color: $color-xr-blue-lazuli !important;
+}
+
+.text-red {
+  color: $color-xr-red !important;
+}
+
+// Restyled Bages
+
+.badge-primary {
+  @include button-variant(white, $theme-primary, $theme-primary);
+  @include heading-font;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.badge-secondary {
+  @include button-variant(white, $gray-darker, $gray-darker);
+  @include heading-font;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+// Restyled Buttons
+
+.btn-primary {
+  @include button-variant(white, $theme-primary, $theme-primary);
+  @include heading-font;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.btn-secondary {
+  @include button-variant(white, $gray-darker, $gray-darker);
+  @include heading-font;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.btn {
+  border-radius: 0;
+  @include heading-font;
+}
+
+.o-button {
+  @include o-button(white, $buttons-backgroud, $color-xr-green-may, $color-xr-lemon);
+}
+
+.o-button-black {
+  @include o-button($gray-lighter, $gray-base, $gray-base, $gray-lighter);
+}
+
+.o-button-rebel {
+  @include o-button(white, $buttons-backgroud, $color-xr-lemon, $color-xr-red);
+}
+
+.o-button-pink {
+  @include o-button(white, $color-xr-pink, $color-xr-lemon, $color-xr-red);
+}
+
+.o-button-purple {
+  @include o-button(white, $color-xr-purple, $color-xr-lemon, $gray-base);
+}
+
+.o-button-green {
+  @include o-button(white, $color-xr-green-may, $color-xr-blue-lazuli, $color-xr-orange);
+}
+
+.o-button-lemon {
+  @include o-button($gray-base, $color-xr-lemon, $color-xr-blue-lazuli, $color-xr-orange);
+}
+
+.o-button-blue {
+  @include o-button($gray-lighter, $color-xr-blue-lazuli, $color-xr-red, $color-xr-lemon);
+}
+
+.o-button-orange {
+  @include o-button($gray-base, $color-xr-orange, $color-xr-red, $color-xr-lemon);
+}
+
+.btn-xl {
+  // @include button-variant(white, $buttons-backgroud, $buttons-backgroud);
+  @include heading-font;
+  font-weight: 700;
+  border-radius: 0px;
+  font-size: 18px;
+  padding: 20px 40px;
+  border-radius: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+  padding: .25rem .5rem .15rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+// ol big munbers
+ol.big-numbers-list {
+  // max-width: 940px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  counter-reset: li;
+  list-style: none;
+  list-style-position: inside;
+  text-align: left;
+  padding: 10px;
+  padding-left: 50px;
+  li {
+    margin-bottom: 35px;
+    border-left: 2px solid #CCCCCC;
+    padding-left: 20px;
+    text-align: left;
+    p {
+      font-size: 22px;
+      font-weight: bold;
+      text-align: left;
+    }
+    &:before {
+      content: counter(li);
+      counter-increment: li;
+      @include heading-font;
+      font-size: 75px;
+      line-height: 1;
+      text-align: center;
+      text-transform: uppercase;
+      position: absolute;
+      left: -11px;
+      width: 30px;
+    }
+  }
+}
+
+// icons
+
+.icon-calendar, icon-location {
+  svg {
+    width: 30px;
+    height: 34px;
+    path {
+      fill: $theme-primary;
+    }
+  }
+}
+
+// Standard pages
+
+.container-top {
+  // padding: 150px 0 75px;;
+  // max-width: 900px;
+}
+
+#page-content {
+  padding-top: 79px;
+  @include media-query($on-laptop) {
+    padding-top: 50px;
+  }
+}
+
+img.culture-regeneratrice-img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+div.action-photo-grid {
+  margin-left: auto;
+  margin-right: auto;
+  &> a { display: block; }
+  .photo-grid {
+    a {
+      display: block;
+      &> img {
+      }
+    }
+    @include media-query(870px) {
+      div { width: 100%; }
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+    }
+  }
+  .btn-prev {
+    position: absolute;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    text-align: left;
+  }
+  .btn-next {
+    position: absolute;
+    right: 0;
+    display: block;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    text-align: right;
+  }
+}
+
+.ekko-lightbox {
+  .modal-footer {
+    font-size: 15px;
+  }
+}
+
+.stretched-link:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0);
+}
+
+// Global Section Styles
+
+section {
+  // padding: 100px 0 50px 0;
+  h1, h2{
+    &.section-heading {
+      margin-top: 0;
+      margin-bottom: 35px;
+    }
+  }
+  h3.section-subheading {
+    @include serif-font;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 50px;
+    @include media-query($on-laptop) {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  section {
+    // padding: 100px 0 50px 0;
+  }
+}
+
+// Footer
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: $gray-base;
+  color: $gray-lighter;
+  span.copyright {
+    line-height: 40px;
+    @include heading-font;
+    text-transform: none;
+  }
+  ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    @include heading-font;
+    text-transform: none;
+    font-size: 1.5vw;
+    @include media-query($on-large) {
+      font-size: 1.9vw;
+    }
+    @include media-query($on-laptop) {
+      font-size: 2.5vw;
+    }
+    @include media-query($on-palm) {
+      font-size: 5vw;
+    }
+  }
+  h5 {
+    border-bottom: 1px solid $gray-lighter;
+  }
+  ul.footer-menu {
+    list-style: none;
+    padding: 0;
+    li {
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
+
+// Social Buttons
+
+footer ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      display: block;
+      background-color: transparent;
+      height: 30px;
+      width: 30px;
+      padding: 0px;
+      border-radius: 5px;
+      font-size: 18px;
+      line-height: 26px;
+      color: white;
+      outline: none;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      @include media-query($on-palm) {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $gray-lighter;
+        path {
+          fill: $gray-base;
+        }
+      }
+      svg {
+        width: 26px;
+        height: 26px;
+        path {
+          fill: $gray-light;
+        }
+        @include media-query($on-palm) {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+
+// Forms
+
+.form-group {
+  margin-bottom: 0;
+  label {
+    cursor: pointer;
+    padding: 2px;
+    // background-color: $gray-base;
+    @include body-font;
+    font-weight: 100;
+    color: $gray-base;
+    // border: 1px solid $gray-light;
+    // border-radius: 4px;
+  }
+  select {
+    border: 1px solid $gray-lighter;
+    border-radius: 0px;
+    color: $gray-base;
+    background: $gray-base;
+    font-weight: bold;
+    @include body-font;
+    height: 52px;
+  }
+  option {
+    border: 0;
+    color: $gray-base;
+    background: $gray-base;
+    font-weight: bold;
+  }
+  textarea, input {
+    border-radius: 0px;
+    background-color: transparent;
+    @include body-font;
+    color: $gray-base;
+    border-color: $gray-light;
+  }
+  input.form-control {
+    height: auto;
+  }
+}
+.form-control:focus {
+  border-color: $theme-primary;
+  box-shadow: none;
+}
+.form-message {
+  color: $gray-base;
+  padding-left: 19px;
+  margin-bottom: 25px;
+}
+::-webkit-input-placeholder {
+  @include body-font;
+  color: $gray-lighter;
+}
+:-moz-placeholder {
+  @include body-font;
+  color: $gray-lighter;
+}
+::-moz-placeholder {
+  @include body-font;
+  color: $gray-lighter;
+}
+:-ms-input-placeholder {
+  @include body-font;
+  color: $gray-lighter;
+}
+.text-danger {
+  color: $theme-danger;
+}
+
+// edit buttons
+
+.top-edit-links {
+  position: fixed;
+  top: 80px;
+  right: 0;
+  z-index: 999999999;
+}
+
+// Highlight Color Customization
+
+::-moz-selection {
+  text-shadow: none;
+  background: $theme-primary;
+}
+
+::selection {
+  text-shadow: none;
+  background: $theme-primary;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  webkit-tap-highlight-color: $theme-primary;
+}

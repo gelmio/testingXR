@@ -1,0 +1,83 @@
+<!-- Navigation -->
+<nav id="main-nav" class="navbar nav-fill navbar-default navbar-custom navbar-expand-lg fixed-top sps sps--abv" data-sps-offset="100">
+      <a class="navbar-brand" href="{{ site.baseurl }}/">{% include xr-logo.svg %}</a>
+      <button id="main-navbar-toggler" class="navbar-toggler btn-primary" type="button" data-toggle="collapse" data-target="#xr-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="xr-navbar-collapse">
+          <ul class="nav navbar-nav ml-auto">
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+
+              {% for item in site.data.menus.main %}
+              <li class="nav-item dropdown {% if page.url == item.url or (page.menu == item.childs and page.menu) %}active{% endif %}">
+
+                  {% if item.childs %}
+                  <a class="nav-link {{ item.class }}{% if page.url == item.url %} link-active{% endif %} xr-nav-dropdown-toggle" href="{{ item.url | prepend: site.baseurl }}" aria-haspopup="true" aria-expanded="false">
+                  {% else %}
+                  <a class="nav-link {{ item.class }}{% if page.url == item.url %} link-active{% endif %}" href="{{ item.url | prepend: site.baseurl }}">
+                  {% endif %}
+                      {{ item.title }}
+                  </a>
+
+                  {% if item.childs %}
+                  {{ child }}
+                  <div class="dropdown-menu w-100">
+                      {% for child in item.childs %}
+                      <a class="dropdown-item nav-link {{ child.class }}" href="{{ child.url | prepend: site.baseurl }}" {% if child.target %}target="{{ child.target }}"{% endif %}>
+                          {{ child.title }}
+                      </a>
+                      {% endfor %}
+                  </div>
+                  {% endif %}
+              </li>
+              {% endfor %}
+
+              <!-- <li class="nav-item dropdown">
+                   <a href="#" class="nav-link xr-nav-dropdown-toggle nav-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Social
+                   </a>
+                   <div class="dropdown-menu">
+                   {% for item in site.data.menus.social %}
+                   <a class="dropdown-item nav-link" style="width: 60px; height: auto;" href="{{ item.url }}">
+                   {% include icons/{{ item.icon }}.svg %}
+                   </a>
+                   {% endfor %}
+                   </div>
+                   </li> -->
+
+              <li class="nav-item dropdown language-selector-lg d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                  <a href="#" class="nav-link xr-nav-dropdown-toggle small nav-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {% include icons/language.svg %}
+                  </a>
+                  <div class="dropdown-menu">
+                      {% for lang in site.languages %}
+                      {% if lang == site.default_lang %}
+                      <a class="dropdown-item nav-link small" href=" {{ site.baseurl }}{{ page.url }}">{{ lang }}</a>
+                      {% else %}
+                      <a class="dropdown-item nav-link small" href=" {{ site.baseurl }}/{{ lang }}{{ page.url }}">{{ lang }}</a>
+                      {% endif %}
+                      {% endfor %}
+                  </div>
+              </li>
+
+              <li class="nav-item dropdown d-sm-block d-md-block d-lg-none d-xl-none">
+                  <ul class="list-inline">
+                      <li class="list-inline-item">{% include icons/language.svg %}</li>
+                      {% for lang in site.languages %}
+                      <li class="list-inline-item">
+                      {% if lang == site.default_lang %}
+                      <a class="nav-link small" href=" {{ site.baseurl }}{{ page.url }}">{{ lang }}</a>
+                      {% else %}
+                      <a class="nav-link small" href=" {{ site.baseurl }}/{{ lang }}{{ page.url }}">{{ lang }}</a>
+                      {% endif %}
+                      </li>
+                      {% endfor %}
+                  </ul>
+              </li>
+
+          </ul>
+      </div>
+</nav>

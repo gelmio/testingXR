@@ -1,0 +1,111 @@
+# Welcome!
+
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Extinction Rebellion
+
+# Site email
+email: contact@rebellion.global
+
+# Site description
+description: > # this means to ignore newlines until "author:"
+   This is Our Declaration of International Non-Violent Rebellion Against
+   the World’s Governments for Criminal Inaction on the Ecological Crisis.
+
+# Default articles author
+author: ExctinctionRebellion
+
+# Keyword
+keyword: ExctinctionRebellion
+
+# The subpath of your site, e.g. /blog
+baseurl: ""
+
+# The base hostname & protocol for your site
+url: "https://dev.rebellion.global"
+
+# Build destination
+destination: "_staging"
+
+# Base forums URL
+xr_base: https://base.organise.earth/
+
+# Cloud RDV URL
+xr_rdv: https://cloud.organise.earth/
+
+# Organise
+xr_organise: https://organise.earth
+
+# XR International
+xr_int: https://rebellion.global/
+
+# Social accounts
+twitter_username:  ExtinctionR
+fb_username:       ExtinctionRebellion
+youtube_username:  Extinction Rebellion
+youtube_url:       "https://www.youtube.com/channel/UCYThdLKE6TDwBJh-qDC6ICA"
+diaspora_username:
+diaspora_pod:
+mastodon_username:
+mastodon_instance:
+peertube_username:
+peertube_channel:
+peertube_instance:
+instagram_username: extinctionrebellion
+github_username:
+
+# Footer message
+footer:
+
+# Timezone
+timezone: Europe/Paris
+
+permalink: /:categories/:year/:month/:day/:slug/
+
+# Polyglot internationalization plugin
+languages: ["cn", "de", "en", "es", "fr", "pt", "se"]
+default_lang: "en"
+exclude_from_localization: ["assets", "admin", "vendor", "gems"]
+parallel_localization: true
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:name/
+  branches:
+    output: true
+    permalink: /branches/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: author
+  - scope:
+      path: ""
+      type: "branches"
+    values:
+      layout: branch
+
+# Build settings
+# ==============
+
+atom_reader_fetch: true
+
+encoding: utf-8
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+exclude:
+  - docker-compose.yml
+  - docker
+  - gems
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor

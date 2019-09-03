@@ -1,0 +1,39 @@
+{% if feed.title %}
+<h2>{{ feed.title }}</h2>
+{% endif %}
+<div class="row bg-light-gray">
+    {% if feed.items %}
+    {% for item in feed.items %}
+    {% capture bg %}bg-{% cycle 'blue-baby', 'yellow', 'green-moss', 'pink', 'lemon', 'orange', 'green-may', 'blue-lazuli', 'purple', 'red' %}{% endcapture %}
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 xr-color-box">
+        <div class="card py-md-0 px-md-0 border-0 rounded-0">
+            <div class="card-header {{ bg }}">
+                {% if item.image %}
+                <!-- <a href="{{ item.url | prepend: site.baseurl }}" class="link">
+                     <img src="{{ item.image }}" class="img-fluid mx-auto" />
+                     </a> -->
+                {% endif %}
+                <h3 class="card-title">
+                    <a href="{{ item.url | prepend: site.baseurl  }}" class="{{ bg }}">
+                        {{item.title}}
+                    </a>
+                </h3>
+            </div>
+            <div class="card-body">
+                <p>{{item.published | date_to_string }}</p>
+                {% if item.body %}
+                <div class="card-excerpt">
+                    <p>{{ item.body }}</p>
+                </div>
+                {% endif %}
+                <div class="card-button">
+                    <a class="btn" href="{{ item.url | prepend: site.baseurl  }}">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>

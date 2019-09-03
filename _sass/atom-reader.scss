@@ -1,0 +1,28 @@
+.atom-reader {
+  &.peertube {
+    .xr-color-box {
+      .card-header {
+        border-radius: 0;
+        h3.card-title  {
+          margin: 0;
+        }
+      }
+    }
+  }
+  &.mastodon {
+    .xr-color-box  {
+      .invisible {
+        display: none;
+      }
+      .ellipsis::after {
+        content: "…";
+      }
+      .card-header {
+        border-radius: 0;
+        h3.card-title  {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
