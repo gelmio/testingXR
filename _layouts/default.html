@@ -7,6 +7,9 @@
 
         {% include nav-dropdown.html %}
 
+        {% if jekyll.environment == "development" %}
+        <div class="position-fixed badge badge-secondary" style="z-index:99999999;">{% project_version commit short %}</div>
+        {% endif %}
 
         <div id="page-content">
             {{ content }}
